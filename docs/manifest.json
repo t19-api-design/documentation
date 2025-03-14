@@ -1,0 +1,270 @@
+{
+  "source_base_path": "C:/Users/natal/OneDrive/Počítač/git_repos/t19-api-design/API/src/docs",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArgumentAPI.APIControlUnit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArgumentAPI.APIControlUnit.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArgumentAPI.APIControlUnit",
+      "Summary": "<p sourcefile=\"api/ArgumentAPI.APIControlUnit.yml\" sourcestartlinenumber=\"1\">The loadbearing class, with which the user is able to communicate when defining options and their\nparameters, as well as when parsing the values obtained from these options during runtime.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArgumentAPI.Enum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArgumentAPI.Enum.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArgumentAPI.Enum",
+      "Summary": "<p sourcefile=\"api/ArgumentAPI.Enum.yml\" sourcestartlinenumber=\"1\">Represents the Enum type that can be specified as an argument type.\nTo facilitate working with it, an implicit cast is defined, so that the Enum class acts as a List&lt;&gt;.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArgumentAPI.EnumParameter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArgumentAPI.EnumParameter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArgumentAPI.EnumParameter",
+      "Summary": "<p sourcefile=\"api/ArgumentAPI.EnumParameter.yml\" sourcestartlinenumber=\"1\">Encapsulates enum parameters for options.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArgumentAPI.EnumParameterBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArgumentAPI.EnumParameterBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArgumentAPI.EnumParameterBuilder",
+      "Summary": "<p sourcefile=\"api/ArgumentAPI.EnumParameterBuilder.yml\" sourcestartlinenumber=\"1\">Provides method overrides for Enum type parameters.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArgumentAPI.Float.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArgumentAPI.Float.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArgumentAPI.Float",
+      "Summary": "<p sourcefile=\"api/ArgumentAPI.Float.yml\" sourcestartlinenumber=\"1\">Represents the Float (float) type that can be specified as an argument type.\nIt is encapsulated in a class because float is a value type, which does not work with the &quot;dynamic&quot; keyword.\nAn implicit cast is defined so that the Float class acts as a float.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArgumentAPI.FloatParameter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArgumentAPI.FloatParameter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArgumentAPI.FloatParameter",
+      "Summary": "<p sourcefile=\"api/ArgumentAPI.FloatParameter.yml\" sourcestartlinenumber=\"1\">Encapsulates float parameters for options.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArgumentAPI.FloatParameterBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArgumentAPI.FloatParameterBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArgumentAPI.FloatParameterBuilder",
+      "Summary": "<p sourcefile=\"api/ArgumentAPI.FloatParameterBuilder.yml\" sourcestartlinenumber=\"1\">Provides method overrides for float type parameters.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArgumentAPI.Int.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArgumentAPI.Int.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArgumentAPI.Int",
+      "Summary": "<p sourcefile=\"api/ArgumentAPI.Int.yml\" sourcestartlinenumber=\"1\">Represents the Int (int) type that can be specified as an argument type.\nIt is encapsulated in a class because int is a value type, which does not work with the &quot;dynamic&quot; keyword.\nAn implicit cast is defined so that the Int class acts as an int.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArgumentAPI.IntParameter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArgumentAPI.IntParameter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArgumentAPI.IntParameter",
+      "Summary": "<p sourcefile=\"api/ArgumentAPI.IntParameter.yml\" sourcestartlinenumber=\"1\">Encapsulates int parameters for options.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArgumentAPI.IntParameterBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArgumentAPI.IntParameterBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArgumentAPI.IntParameterBuilder",
+      "Summary": "<p sourcefile=\"api/ArgumentAPI.IntParameterBuilder.yml\" sourcestartlinenumber=\"1\">Provides method overrides for int type parameters.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArgumentAPI.Option.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArgumentAPI.Option.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArgumentAPI.Option",
+      "Summary": "<p sourcefile=\"api/ArgumentAPI.Option.yml\" sourcestartlinenumber=\"1\">Houses the Option definitions.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArgumentAPI.OptionBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArgumentAPI.OptionBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArgumentAPI.OptionBuilder",
+      "Summary": "<p sourcefile=\"api/ArgumentAPI.OptionBuilder.yml\" sourcestartlinenumber=\"1\">Builder pattern class; used to provide a fluid option defining experience to\nthe user, while not exposing them to the Option objects.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArgumentAPI.Parameter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArgumentAPI.Parameter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArgumentAPI.Parameter",
+      "Summary": "<p sourcefile=\"api/ArgumentAPI.Parameter.yml\" sourcestartlinenumber=\"1\">Parent class for all types of parameters that can be assigned to options.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArgumentAPI.ParameterBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArgumentAPI.ParameterBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArgumentAPI.ParameterBuilder",
+      "Summary": "<p sourcefile=\"api/ArgumentAPI.ParameterBuilder.yml\" sourcestartlinenumber=\"1\">Builder pattern class used to provide a fluid parameter defining experience to the user,\nwhile not exposing them to the Parameter objects.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArgumentAPI.StringParameter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArgumentAPI.StringParameter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArgumentAPI.StringParameter",
+      "Summary": "<p sourcefile=\"api/ArgumentAPI.StringParameter.yml\" sourcestartlinenumber=\"1\">Encapsulates string parameters for options.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArgumentAPI.StringParameterBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArgumentAPI.StringParameterBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArgumentAPI.StringParameterBuilder",
+      "Summary": "<p sourcefile=\"api/ArgumentAPI.StringParameterBuilder.yml\" sourcestartlinenumber=\"1\">Provides method overrides for string type parameters.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArgumentAPI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArgumentAPI.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArgumentAPI",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
