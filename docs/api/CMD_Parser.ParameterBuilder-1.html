@@ -2,15 +2,15 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class ParameterBuilder | ArgumentAPI </title>
+      <title>Class ParameterBuilder&lt;T&gt; | Command Line Parser </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class ParameterBuilder | ArgumentAPI ">
+      <meta name="title" content="Class ParameterBuilder&lt;T&gt; | Command Line Parser ">
       
       <meta name="description" content="Builder pattern class used to provide a fluid parameter defining experience to the user, while not exposing them to the Parameter objects.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
-      <meta name="docfx:navrel" content="">
+      <meta name="docfx:navrel" content="../toc.html">
       <meta name="docfx:tocrel" content="toc.html">
       
       <meta name="docfx:rel" content="../">
@@ -44,8 +44,8 @@
       <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
         <div class="container-xxl flex-nowrap">
           <a class="navbar-brand" href="../index.html">
-            <img id="logo" class="svg" src="../logo.svg" alt="ArgumentAPI">
-            ArgumentAPI
+            <img id="logo" class="svg" src="../logo.svg" alt="Command Line Parser">
+            Command Line Parser
           </a>
           <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
             <i class="bi bi-three-dots"></i>
@@ -84,17 +84,17 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="ArgumentAPI.ParameterBuilder">
+        <article data-uid="CMD_Parser.ParameterBuilder`1">
 
 
 
-  <h1 id="ArgumentAPI_ParameterBuilder" data-uid="ArgumentAPI.ParameterBuilder" class="text-break">
-Class ParameterBuilder  
+  <h1 id="CMD_Parser_ParameterBuilder_1" data-uid="CMD_Parser.ParameterBuilder`1" class="text-break">
+Class ParameterBuilder&lt;T&gt;  
   </h1>
 
   <div class="facts text-secondary">
-    <dl><dt>Namespace</dt><dd><a class="xref" href="ArgumentAPI.html">ArgumentAPI</a></dd></dl>
-  <dl><dt>Assembly</dt><dd>API Implementation.dll</dd></dl>
+    <dl><dt>Namespace</dt><dd><a class="xref" href="CMD_Parser.html">CMD_Parser</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>CMD_Parser.dll</dd></dl>
   </div>
 
   <div class="markdown summary"><p>Builder pattern class used to provide a fluid parameter defining experience to the user,
@@ -103,30 +103,26 @@ while not exposing them to the Parameter objects.</p>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class ParameterBuilder</code></pre>
+    <pre><code class="lang-csharp hljs">public class ParameterBuilder&lt;T&gt;</code></pre>
   </div>
 
 
 
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
 
   <dl class="typelist inheritance">
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><span class="xref">ParameterBuilder</span></div>
+      <div><span class="xref">ParameterBuilder&lt;T&gt;</span></div>
     </dd>
   </dl>
 
 
-  <dl class="typelist derived">
-    <dt>Derived</dt>
-    <dd>
-      <div><a class="xref" href="ArgumentAPI.EnumParameterBuilder.html">EnumParameterBuilder</a></div>
-      <div><a class="xref" href="ArgumentAPI.FloatParameterBuilder.html">FloatParameterBuilder</a></div>
-      <div><a class="xref" href="ArgumentAPI.IntParameterBuilder.html">IntParameterBuilder</a></div>
-      <div><a class="xref" href="ArgumentAPI.StringParameterBuilder.html">StringParameterBuilder</a></div>
-    </dd>
-  </dl>
 
   <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
@@ -159,29 +155,103 @@ while not exposing them to the Parameter objects.</p>
 
 
 
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="CMD_Parser_ParameterBuilder_1__ctor_" data-uid="CMD_Parser.ParameterBuilder`1.#ctor*"></a>
+
+  <h3 id="CMD_Parser_ParameterBuilder_1__ctor_System_String_" data-uid="CMD_Parser.ParameterBuilder`1.#ctor(System.String)">
+  ParameterBuilder(string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Constructor for cases when the ParameterBuilder needs to be accessed directly and when
+it is being set up as an option parameter.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ParameterBuilder(string name)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The name of the paramter.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
   <h2 class="section" id="methods">Methods
 </h2>
 
 
-  <a id="ArgumentAPI_ParameterBuilder_GetParameter_" data-uid="ArgumentAPI.ParameterBuilder.GetParameter*"></a>
+  <a id="CMD_Parser_ParameterBuilder_1_AsRequired_" data-uid="CMD_Parser.ParameterBuilder`1.AsRequired*"></a>
 
-  <h3 id="ArgumentAPI_ParameterBuilder_GetParameter" data-uid="ArgumentAPI.ParameterBuilder.GetParameter">
+  <h3 id="CMD_Parser_ParameterBuilder_1_AsRequired" data-uid="CMD_Parser.ParameterBuilder`1.AsRequired">
+  AsRequired()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Specifies whether the parameter is required. If it is not set on the command line
+(either as a parameter or an option parameter), an UnsetParameter exception will
+be thrown.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ParameterBuilder&lt;T&gt; AsRequired()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CMD_Parser.ParameterBuilder-1.html">ParameterBuilder</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CMD_Parser_ParameterBuilder_1_GetParameter_" data-uid="CMD_Parser.ParameterBuilder`1.GetParameter*"></a>
+
+  <h3 id="CMD_Parser_ParameterBuilder_1_GetParameter" data-uid="CMD_Parser.ParameterBuilder`1.GetParameter">
   GetParameter()
   
   </h3>
 
-  <div class="markdown level1 summary"><p>Allows the user to get the fully built Parameter object to pass to the OptionBuilder class.</p>
+  <div class="markdown level1 summary"><p>Allows the user to get the fully built Parameter object to pass to the OptionBuilder class.
+Only available if the instance of the builder class was created directly, otherwise a ForbiddenMethod
+exception will be thrown.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual Parameter GetParameter()</code></pre>
+    <pre><code class="lang-csharp hljs">public Parameter&lt;T&gt; GetParameter()</code></pre>
   </div>
 
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="ArgumentAPI.Parameter.html">Parameter</a></dt>
+    <dt><a class="xref" href="CMD_Parser.Parameter-1.html">Parameter</a>&lt;T&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -195,27 +265,24 @@ while not exposing them to the Parameter objects.</p>
 
 
 
-  <a id="ArgumentAPI_ParameterBuilder_IsEnum_" data-uid="ArgumentAPI.ParameterBuilder.IsEnum*"></a>
+  <a id="CMD_Parser_ParameterBuilder_1_SetParameter_" data-uid="CMD_Parser.ParameterBuilder`1.SetParameter*"></a>
 
-  <h3 id="ArgumentAPI_ParameterBuilder_IsEnum" data-uid="ArgumentAPI.ParameterBuilder.IsEnum">
-  IsEnum()
+  <h3 id="CMD_Parser_ParameterBuilder_1_SetParameter" data-uid="CMD_Parser.ParameterBuilder`1.SetParameter">
+  SetParameter()
   
   </h3>
 
-  <div class="markdown level1 summary"><p>Specifies the type of the parameter as enum.</p>
+  <div class="markdown level1 summary"><p>Allows the user to set the parameter (plain option). Only available if the builder class
+was accessed through the AddParameter method in ParserControl, otherwise a ForbiddenMethod
+exception will be thrown. These parameters will capture plain arguments in the order they were set.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public EnumParameterBuilder IsEnum()</code></pre>
+    <pre><code class="lang-csharp hljs">public void SetParameter()</code></pre>
   </div>
 
 
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="ArgumentAPI.EnumParameterBuilder.html">EnumParameterBuilder</a></dt>
-    <dd></dd>
-  </dl>
 
 
 
@@ -227,25 +294,31 @@ while not exposing them to the Parameter objects.</p>
 
 
 
-  <a id="ArgumentAPI_ParameterBuilder_IsFloat_" data-uid="ArgumentAPI.ParameterBuilder.IsFloat*"></a>
+  <a id="CMD_Parser_ParameterBuilder_1_WithDefaultValue_" data-uid="CMD_Parser.ParameterBuilder`1.WithDefaultValue*"></a>
 
-  <h3 id="ArgumentAPI_ParameterBuilder_IsFloat" data-uid="ArgumentAPI.ParameterBuilder.IsFloat">
-  IsFloat()
+  <h3 id="CMD_Parser_ParameterBuilder_1_WithDefaultValue__0_" data-uid="CMD_Parser.ParameterBuilder`1.WithDefaultValue(`0)">
+  WithDefaultValue(T)
   
   </h3>
 
-  <div class="markdown level1 summary"><p>Specifies the type of the parameter as float.</p>
+  <div class="markdown level1 summary"><p>Allows the user to set a default value for the parameter.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public FloatParameterBuilder IsFloat()</code></pre>
+    <pre><code class="lang-csharp hljs">public ParameterBuilder&lt;T&gt; WithDefaultValue(T value)</code></pre>
   </div>
 
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <span class="xref">T</span></dt>
+    <dd><p>The default value.</p>
+</dd>
+  </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="ArgumentAPI.FloatParameterBuilder.html">FloatParameterBuilder</a></dt>
+    <dt><a class="xref" href="CMD_Parser.ParameterBuilder-1.html">ParameterBuilder</a>&lt;T&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -259,25 +332,31 @@ while not exposing them to the Parameter objects.</p>
 
 
 
-  <a id="ArgumentAPI_ParameterBuilder_IsInt_" data-uid="ArgumentAPI.ParameterBuilder.IsInt*"></a>
+  <a id="CMD_Parser_ParameterBuilder_1_WithHelp_" data-uid="CMD_Parser.ParameterBuilder`1.WithHelp*"></a>
 
-  <h3 id="ArgumentAPI_ParameterBuilder_IsInt" data-uid="ArgumentAPI.ParameterBuilder.IsInt">
-  IsInt()
+  <h3 id="CMD_Parser_ParameterBuilder_1_WithHelp_System_String_" data-uid="CMD_Parser.ParameterBuilder`1.WithHelp(System.String)">
+  WithHelp(string)
   
   </h3>
 
-  <div class="markdown level1 summary"><p>Specifies the type of the parameter as int.</p>
+  <div class="markdown level1 summary"><p>Allows the user to define the help text for the parameter.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IntParameterBuilder IsInt()</code></pre>
+    <pre><code class="lang-csharp hljs">public ParameterBuilder&lt;T&gt; WithHelp(string help)</code></pre>
   </div>
 
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>help</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The help text for the parameter.</p>
+</dd>
+  </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="ArgumentAPI.IntParameterBuilder.html">IntParameterBuilder</a></dt>
+    <dt><a class="xref" href="CMD_Parser.ParameterBuilder-1.html">ParameterBuilder</a>&lt;T&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -291,74 +370,10 @@ while not exposing them to the Parameter objects.</p>
 
 
 
-  <a id="ArgumentAPI_ParameterBuilder_IsRequired_" data-uid="ArgumentAPI.ParameterBuilder.IsRequired*"></a>
+  <a id="CMD_Parser_ParameterBuilder_1_WithLambdaValidation_" data-uid="CMD_Parser.ParameterBuilder`1.WithLambdaValidation*"></a>
 
-  <h3 id="ArgumentAPI_ParameterBuilder_IsRequired" data-uid="ArgumentAPI.ParameterBuilder.IsRequired">
-  IsRequired()
-  
-  </h3>
-
-  <div class="markdown level1 summary"><p>Specifies whether the option is required. If not set, the user will be issued a warning.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ParameterBuilder IsRequired()</code></pre>
-  </div>
-
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="ArgumentAPI.ParameterBuilder.html">ParameterBuilder</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-  <a id="ArgumentAPI_ParameterBuilder_IsString_" data-uid="ArgumentAPI.ParameterBuilder.IsString*"></a>
-
-  <h3 id="ArgumentAPI_ParameterBuilder_IsString" data-uid="ArgumentAPI.ParameterBuilder.IsString">
-  IsString()
-  
-  </h3>
-
-  <div class="markdown level1 summary"><p>Specifies the type of the parameter as string.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public StringParameterBuilder IsString()</code></pre>
-  </div>
-
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="ArgumentAPI.StringParameterBuilder.html">StringParameterBuilder</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-  <a id="ArgumentAPI_ParameterBuilder_WithLambdaValidation_" data-uid="ArgumentAPI.ParameterBuilder.WithLambdaValidation*"></a>
-
-  <h3 id="ArgumentAPI_ParameterBuilder_WithLambdaValidation" data-uid="ArgumentAPI.ParameterBuilder.WithLambdaValidation">
-  WithLambdaValidation()
+  <h3 id="CMD_Parser_ParameterBuilder_1_WithLambdaValidation_System_Func__0_System_Boolean__" data-uid="CMD_Parser.ParameterBuilder`1.WithLambdaValidation(System.Func{`0,System.Boolean})">
+  WithLambdaValidation(Func&lt;T, bool&gt;)
   
   </h3>
 
@@ -367,13 +382,19 @@ while not exposing them to the Parameter objects.</p>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual ParameterBuilder WithLambdaValidation()</code></pre>
+    <pre><code class="lang-csharp hljs">public ParameterBuilder&lt;T&gt; WithLambdaValidation(Func&lt;T, bool&gt; func)</code></pre>
   </div>
 
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>func</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd><p>The lambda function for value verification.</p>
+</dd>
+  </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="ArgumentAPI.ParameterBuilder.html">ParameterBuilder</a></dt>
+    <dt><a class="xref" href="CMD_Parser.ParameterBuilder-1.html">ParameterBuilder</a>&lt;T&gt;</dt>
     <dd></dd>
   </dl>
 

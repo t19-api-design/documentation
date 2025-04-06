@@ -1,813 +1,480 @@
 ### YamlMime:XRefMap
 sorted: true
 references:
-- uid: ArgumentAPI
-  name: ArgumentAPI
-  href: api/ArgumentAPI.html
-  commentId: N:ArgumentAPI
-  fullName: ArgumentAPI
-  nameWithType: ArgumentAPI
-- uid: ArgumentAPI.APIControlUnit
-  name: APIControlUnit
-  href: api/ArgumentAPI.APIControlUnit.html
-  commentId: T:ArgumentAPI.APIControlUnit
-  fullName: ArgumentAPI.APIControlUnit
-  nameWithType: APIControlUnit
-- uid: ArgumentAPI.APIControlUnit.GetOptionNames
-  name: GetOptionNames()
-  href: api/ArgumentAPI.APIControlUnit.html#ArgumentAPI_APIControlUnit_GetOptionNames
-  commentId: M:ArgumentAPI.APIControlUnit.GetOptionNames
-  fullName: ArgumentAPI.APIControlUnit.GetOptionNames()
-  nameWithType: APIControlUnit.GetOptionNames()
-- uid: ArgumentAPI.APIControlUnit.GetOptionNames*
-  name: GetOptionNames
-  href: api/ArgumentAPI.APIControlUnit.html#ArgumentAPI_APIControlUnit_GetOptionNames_
-  commentId: Overload:ArgumentAPI.APIControlUnit.GetOptionNames
-  isSpec: "True"
-  fullName: ArgumentAPI.APIControlUnit.GetOptionNames
-  nameWithType: APIControlUnit.GetOptionNames
-- uid: ArgumentAPI.APIControlUnit.GetOptionParameter(System.String)
-  name: GetOptionParameter(string)
-  href: api/ArgumentAPI.APIControlUnit.html#ArgumentAPI_APIControlUnit_GetOptionParameter_System_String_
-  commentId: M:ArgumentAPI.APIControlUnit.GetOptionParameter(System.String)
-  name.vb: GetOptionParameter(String)
-  fullName: ArgumentAPI.APIControlUnit.GetOptionParameter(string)
-  fullName.vb: ArgumentAPI.APIControlUnit.GetOptionParameter(String)
-  nameWithType: APIControlUnit.GetOptionParameter(string)
-  nameWithType.vb: APIControlUnit.GetOptionParameter(String)
-- uid: ArgumentAPI.APIControlUnit.GetOptionParameter*
-  name: GetOptionParameter
-  href: api/ArgumentAPI.APIControlUnit.html#ArgumentAPI_APIControlUnit_GetOptionParameter_
-  commentId: Overload:ArgumentAPI.APIControlUnit.GetOptionParameter
-  isSpec: "True"
-  fullName: ArgumentAPI.APIControlUnit.GetOptionParameter
-  nameWithType: APIControlUnit.GetOptionParameter
-- uid: ArgumentAPI.APIControlUnit.ParseArgs(System.String[])
-  name: ParseArgs(string[])
-  href: api/ArgumentAPI.APIControlUnit.html#ArgumentAPI_APIControlUnit_ParseArgs_System_String___
-  commentId: M:ArgumentAPI.APIControlUnit.ParseArgs(System.String[])
-  name.vb: ParseArgs(String())
-  fullName: ArgumentAPI.APIControlUnit.ParseArgs(string[])
-  fullName.vb: ArgumentAPI.APIControlUnit.ParseArgs(String())
-  nameWithType: APIControlUnit.ParseArgs(string[])
-  nameWithType.vb: APIControlUnit.ParseArgs(String())
-- uid: ArgumentAPI.APIControlUnit.ParseArgs*
-  name: ParseArgs
-  href: api/ArgumentAPI.APIControlUnit.html#ArgumentAPI_APIControlUnit_ParseArgs_
-  commentId: Overload:ArgumentAPI.APIControlUnit.ParseArgs
-  isSpec: "True"
-  fullName: ArgumentAPI.APIControlUnit.ParseArgs
-  nameWithType: APIControlUnit.ParseArgs
-- uid: ArgumentAPI.APIControlUnit.ParseFile(System.String)
-  name: ParseFile(string)
-  href: api/ArgumentAPI.APIControlUnit.html#ArgumentAPI_APIControlUnit_ParseFile_System_String_
-  commentId: M:ArgumentAPI.APIControlUnit.ParseFile(System.String)
-  name.vb: ParseFile(String)
-  fullName: ArgumentAPI.APIControlUnit.ParseFile(string)
-  fullName.vb: ArgumentAPI.APIControlUnit.ParseFile(String)
-  nameWithType: APIControlUnit.ParseFile(string)
-  nameWithType.vb: APIControlUnit.ParseFile(String)
-- uid: ArgumentAPI.APIControlUnit.ParseFile*
-  name: ParseFile
-  href: api/ArgumentAPI.APIControlUnit.html#ArgumentAPI_APIControlUnit_ParseFile_
-  commentId: Overload:ArgumentAPI.APIControlUnit.ParseFile
-  isSpec: "True"
-  fullName: ArgumentAPI.APIControlUnit.ParseFile
-  nameWithType: APIControlUnit.ParseFile
-- uid: ArgumentAPI.Enum
-  name: Enum
-  href: api/ArgumentAPI.Enum.html
-  commentId: T:ArgumentAPI.Enum
-  fullName: ArgumentAPI.Enum
-  nameWithType: Enum
-- uid: ArgumentAPI.Enum.Value
-  name: Value
-  href: api/ArgumentAPI.Enum.html#ArgumentAPI_Enum_Value
-  commentId: P:ArgumentAPI.Enum.Value
-  fullName: ArgumentAPI.Enum.Value
-  nameWithType: Enum.Value
-- uid: ArgumentAPI.Enum.Value*
-  name: Value
-  href: api/ArgumentAPI.Enum.html#ArgumentAPI_Enum_Value_
-  commentId: Overload:ArgumentAPI.Enum.Value
-  isSpec: "True"
-  fullName: ArgumentAPI.Enum.Value
-  nameWithType: Enum.Value
-- uid: ArgumentAPI.Enum.op_Implicit(ArgumentAPI.Enum)~System.Collections.Generic.List{System.String}
-  name: implicit operator List<string>(Enum)
-  href: api/ArgumentAPI.Enum.html#ArgumentAPI_Enum_op_Implicit_ArgumentAPI_Enum__System_Collections_Generic_List_System_String_
-  commentId: M:ArgumentAPI.Enum.op_Implicit(ArgumentAPI.Enum)~System.Collections.Generic.List{System.String}
-  name.vb: CType(Enum)
-  fullName: ArgumentAPI.Enum.implicit operator System.Collections.Generic.List<string>(ArgumentAPI.Enum)
-  fullName.vb: ArgumentAPI.Enum.CType(ArgumentAPI.Enum)
-  nameWithType: Enum.implicit operator List<string>(Enum)
-  nameWithType.vb: Enum.CType(Enum)
-- uid: ArgumentAPI.Enum.op_Implicit*
-  name: implicit operator
-  href: api/ArgumentAPI.Enum.html#ArgumentAPI_Enum_op_Implicit_
-  commentId: Overload:ArgumentAPI.Enum.op_Implicit
-  isSpec: "True"
-  name.vb: CType
-  fullName: ArgumentAPI.Enum.implicit operator
-  fullName.vb: ArgumentAPI.Enum.CType
-  nameWithType: Enum.implicit operator
-  nameWithType.vb: Enum.CType
-- uid: ArgumentAPI.EnumParameter
-  name: EnumParameter
-  href: api/ArgumentAPI.EnumParameter.html
-  commentId: T:ArgumentAPI.EnumParameter
-  fullName: ArgumentAPI.EnumParameter
-  nameWithType: EnumParameter
-- uid: ArgumentAPI.EnumParameter.Value
-  name: Value()
-  href: api/ArgumentAPI.EnumParameter.html#ArgumentAPI_EnumParameter_Value
-  commentId: M:ArgumentAPI.EnumParameter.Value
-  fullName: ArgumentAPI.EnumParameter.Value()
-  nameWithType: EnumParameter.Value()
-- uid: ArgumentAPI.EnumParameter.Value*
-  name: Value
-  href: api/ArgumentAPI.EnumParameter.html#ArgumentAPI_EnumParameter_Value_
-  commentId: Overload:ArgumentAPI.EnumParameter.Value
-  isSpec: "True"
-  fullName: ArgumentAPI.EnumParameter.Value
-  nameWithType: EnumParameter.Value
-- uid: ArgumentAPI.EnumParameterBuilder
-  name: EnumParameterBuilder
-  href: api/ArgumentAPI.EnumParameterBuilder.html
-  commentId: T:ArgumentAPI.EnumParameterBuilder
-  fullName: ArgumentAPI.EnumParameterBuilder
-  nameWithType: EnumParameterBuilder
-- uid: ArgumentAPI.EnumParameterBuilder.GetParameter
-  name: GetParameter()
-  href: api/ArgumentAPI.EnumParameterBuilder.html#ArgumentAPI_EnumParameterBuilder_GetParameter
-  commentId: M:ArgumentAPI.EnumParameterBuilder.GetParameter
-  fullName: ArgumentAPI.EnumParameterBuilder.GetParameter()
-  nameWithType: EnumParameterBuilder.GetParameter()
-- uid: ArgumentAPI.EnumParameterBuilder.GetParameter*
-  name: GetParameter
-  href: api/ArgumentAPI.EnumParameterBuilder.html#ArgumentAPI_EnumParameterBuilder_GetParameter_
-  commentId: Overload:ArgumentAPI.EnumParameterBuilder.GetParameter
-  isSpec: "True"
-  fullName: ArgumentAPI.EnumParameterBuilder.GetParameter
-  nameWithType: EnumParameterBuilder.GetParameter
-- uid: ArgumentAPI.EnumParameterBuilder.WithDefaultValue(System.String)
-  name: WithDefaultValue(string)
-  href: api/ArgumentAPI.EnumParameterBuilder.html#ArgumentAPI_EnumParameterBuilder_WithDefaultValue_System_String_
-  commentId: M:ArgumentAPI.EnumParameterBuilder.WithDefaultValue(System.String)
-  name.vb: WithDefaultValue(String)
-  fullName: ArgumentAPI.EnumParameterBuilder.WithDefaultValue(string)
-  fullName.vb: ArgumentAPI.EnumParameterBuilder.WithDefaultValue(String)
-  nameWithType: EnumParameterBuilder.WithDefaultValue(string)
-  nameWithType.vb: EnumParameterBuilder.WithDefaultValue(String)
-- uid: ArgumentAPI.EnumParameterBuilder.WithDefaultValue*
-  name: WithDefaultValue
-  href: api/ArgumentAPI.EnumParameterBuilder.html#ArgumentAPI_EnumParameterBuilder_WithDefaultValue_
-  commentId: Overload:ArgumentAPI.EnumParameterBuilder.WithDefaultValue
-  isSpec: "True"
-  fullName: ArgumentAPI.EnumParameterBuilder.WithDefaultValue
-  nameWithType: EnumParameterBuilder.WithDefaultValue
-- uid: ArgumentAPI.EnumParameterBuilder.WithEnumOption(System.String)
-  name: WithEnumOption(string)
-  href: api/ArgumentAPI.EnumParameterBuilder.html#ArgumentAPI_EnumParameterBuilder_WithEnumOption_System_String_
-  commentId: M:ArgumentAPI.EnumParameterBuilder.WithEnumOption(System.String)
-  name.vb: WithEnumOption(String)
-  fullName: ArgumentAPI.EnumParameterBuilder.WithEnumOption(string)
-  fullName.vb: ArgumentAPI.EnumParameterBuilder.WithEnumOption(String)
-  nameWithType: EnumParameterBuilder.WithEnumOption(string)
-  nameWithType.vb: EnumParameterBuilder.WithEnumOption(String)
-- uid: ArgumentAPI.EnumParameterBuilder.WithEnumOption*
-  name: WithEnumOption
-  href: api/ArgumentAPI.EnumParameterBuilder.html#ArgumentAPI_EnumParameterBuilder_WithEnumOption_
-  commentId: Overload:ArgumentAPI.EnumParameterBuilder.WithEnumOption
-  isSpec: "True"
-  fullName: ArgumentAPI.EnumParameterBuilder.WithEnumOption
-  nameWithType: EnumParameterBuilder.WithEnumOption
-- uid: ArgumentAPI.Float
-  name: Float
-  href: api/ArgumentAPI.Float.html
-  commentId: T:ArgumentAPI.Float
-  fullName: ArgumentAPI.Float
-  nameWithType: Float
-- uid: ArgumentAPI.Float.Value
-  name: Value
-  href: api/ArgumentAPI.Float.html#ArgumentAPI_Float_Value
-  commentId: P:ArgumentAPI.Float.Value
-  fullName: ArgumentAPI.Float.Value
-  nameWithType: Float.Value
-- uid: ArgumentAPI.Float.Value*
-  name: Value
-  href: api/ArgumentAPI.Float.html#ArgumentAPI_Float_Value_
-  commentId: Overload:ArgumentAPI.Float.Value
-  isSpec: "True"
-  fullName: ArgumentAPI.Float.Value
-  nameWithType: Float.Value
-- uid: ArgumentAPI.Float.op_Implicit(ArgumentAPI.Float)~System.Single
-  name: implicit operator float(Float)
-  href: api/ArgumentAPI.Float.html#ArgumentAPI_Float_op_Implicit_ArgumentAPI_Float__System_Single
-  commentId: M:ArgumentAPI.Float.op_Implicit(ArgumentAPI.Float)~System.Single
-  name.vb: CType(Float)
-  fullName: ArgumentAPI.Float.implicit operator float(ArgumentAPI.Float)
-  fullName.vb: ArgumentAPI.Float.CType(ArgumentAPI.Float)
-  nameWithType: Float.implicit operator float(Float)
-  nameWithType.vb: Float.CType(Float)
-- uid: ArgumentAPI.Float.op_Implicit*
-  name: implicit operator
-  href: api/ArgumentAPI.Float.html#ArgumentAPI_Float_op_Implicit_
-  commentId: Overload:ArgumentAPI.Float.op_Implicit
-  isSpec: "True"
-  name.vb: CType
-  fullName: ArgumentAPI.Float.implicit operator
-  fullName.vb: ArgumentAPI.Float.CType
-  nameWithType: Float.implicit operator
-  nameWithType.vb: Float.CType
-- uid: ArgumentAPI.FloatParameter
-  name: FloatParameter
-  href: api/ArgumentAPI.FloatParameter.html
-  commentId: T:ArgumentAPI.FloatParameter
-  fullName: ArgumentAPI.FloatParameter
-  nameWithType: FloatParameter
-- uid: ArgumentAPI.FloatParameter.Value
-  name: Value()
-  href: api/ArgumentAPI.FloatParameter.html#ArgumentAPI_FloatParameter_Value
-  commentId: M:ArgumentAPI.FloatParameter.Value
-  fullName: ArgumentAPI.FloatParameter.Value()
-  nameWithType: FloatParameter.Value()
-- uid: ArgumentAPI.FloatParameter.Value*
-  name: Value
-  href: api/ArgumentAPI.FloatParameter.html#ArgumentAPI_FloatParameter_Value_
-  commentId: Overload:ArgumentAPI.FloatParameter.Value
-  isSpec: "True"
-  fullName: ArgumentAPI.FloatParameter.Value
-  nameWithType: FloatParameter.Value
-- uid: ArgumentAPI.FloatParameterBuilder
-  name: FloatParameterBuilder
-  href: api/ArgumentAPI.FloatParameterBuilder.html
-  commentId: T:ArgumentAPI.FloatParameterBuilder
-  fullName: ArgumentAPI.FloatParameterBuilder
-  nameWithType: FloatParameterBuilder
-- uid: ArgumentAPI.FloatParameterBuilder.GetParameter
-  name: GetParameter()
-  href: api/ArgumentAPI.FloatParameterBuilder.html#ArgumentAPI_FloatParameterBuilder_GetParameter
-  commentId: M:ArgumentAPI.FloatParameterBuilder.GetParameter
-  fullName: ArgumentAPI.FloatParameterBuilder.GetParameter()
-  nameWithType: FloatParameterBuilder.GetParameter()
-- uid: ArgumentAPI.FloatParameterBuilder.GetParameter*
-  name: GetParameter
-  href: api/ArgumentAPI.FloatParameterBuilder.html#ArgumentAPI_FloatParameterBuilder_GetParameter_
-  commentId: Overload:ArgumentAPI.FloatParameterBuilder.GetParameter
-  isSpec: "True"
-  fullName: ArgumentAPI.FloatParameterBuilder.GetParameter
-  nameWithType: FloatParameterBuilder.GetParameter
-- uid: ArgumentAPI.FloatParameterBuilder.WithDefaultValue(System.Single)
-  name: WithDefaultValue(float)
-  href: api/ArgumentAPI.FloatParameterBuilder.html#ArgumentAPI_FloatParameterBuilder_WithDefaultValue_System_Single_
-  commentId: M:ArgumentAPI.FloatParameterBuilder.WithDefaultValue(System.Single)
-  name.vb: WithDefaultValue(Single)
-  fullName: ArgumentAPI.FloatParameterBuilder.WithDefaultValue(float)
-  fullName.vb: ArgumentAPI.FloatParameterBuilder.WithDefaultValue(Single)
-  nameWithType: FloatParameterBuilder.WithDefaultValue(float)
-  nameWithType.vb: FloatParameterBuilder.WithDefaultValue(Single)
-- uid: ArgumentAPI.FloatParameterBuilder.WithDefaultValue*
-  name: WithDefaultValue
-  href: api/ArgumentAPI.FloatParameterBuilder.html#ArgumentAPI_FloatParameterBuilder_WithDefaultValue_
-  commentId: Overload:ArgumentAPI.FloatParameterBuilder.WithDefaultValue
-  isSpec: "True"
-  fullName: ArgumentAPI.FloatParameterBuilder.WithDefaultValue
-  nameWithType: FloatParameterBuilder.WithDefaultValue
-- uid: ArgumentAPI.FloatParameterBuilder.WithLambdaValidation(System.Func{System.Single,System.Boolean})
-  name: WithLambdaValidation(Func<float, bool>?)
-  href: api/ArgumentAPI.FloatParameterBuilder.html#ArgumentAPI_FloatParameterBuilder_WithLambdaValidation_System_Func_System_Single_System_Boolean__
-  commentId: M:ArgumentAPI.FloatParameterBuilder.WithLambdaValidation(System.Func{System.Single,System.Boolean})
-  name.vb: WithLambdaValidation(Func(Of Single, Boolean))
-  fullName: ArgumentAPI.FloatParameterBuilder.WithLambdaValidation(System.Func<float, bool>?)
-  fullName.vb: ArgumentAPI.FloatParameterBuilder.WithLambdaValidation(System.Func(Of Single, Boolean))
-  nameWithType: FloatParameterBuilder.WithLambdaValidation(Func<float, bool>?)
-  nameWithType.vb: FloatParameterBuilder.WithLambdaValidation(Func(Of Single, Boolean))
-- uid: ArgumentAPI.FloatParameterBuilder.WithLambdaValidation*
-  name: WithLambdaValidation
-  href: api/ArgumentAPI.FloatParameterBuilder.html#ArgumentAPI_FloatParameterBuilder_WithLambdaValidation_
-  commentId: Overload:ArgumentAPI.FloatParameterBuilder.WithLambdaValidation
-  isSpec: "True"
-  fullName: ArgumentAPI.FloatParameterBuilder.WithLambdaValidation
-  nameWithType: FloatParameterBuilder.WithLambdaValidation
-- uid: ArgumentAPI.FloatParameterBuilder.WithLowerBound(System.Single)
-  name: WithLowerBound(float)
-  href: api/ArgumentAPI.FloatParameterBuilder.html#ArgumentAPI_FloatParameterBuilder_WithLowerBound_System_Single_
-  commentId: M:ArgumentAPI.FloatParameterBuilder.WithLowerBound(System.Single)
-  name.vb: WithLowerBound(Single)
-  fullName: ArgumentAPI.FloatParameterBuilder.WithLowerBound(float)
-  fullName.vb: ArgumentAPI.FloatParameterBuilder.WithLowerBound(Single)
-  nameWithType: FloatParameterBuilder.WithLowerBound(float)
-  nameWithType.vb: FloatParameterBuilder.WithLowerBound(Single)
-- uid: ArgumentAPI.FloatParameterBuilder.WithLowerBound*
-  name: WithLowerBound
-  href: api/ArgumentAPI.FloatParameterBuilder.html#ArgumentAPI_FloatParameterBuilder_WithLowerBound_
-  commentId: Overload:ArgumentAPI.FloatParameterBuilder.WithLowerBound
-  isSpec: "True"
-  fullName: ArgumentAPI.FloatParameterBuilder.WithLowerBound
-  nameWithType: FloatParameterBuilder.WithLowerBound
-- uid: ArgumentAPI.FloatParameterBuilder.WithUpperBound(System.Single)
-  name: WithUpperBound(float)
-  href: api/ArgumentAPI.FloatParameterBuilder.html#ArgumentAPI_FloatParameterBuilder_WithUpperBound_System_Single_
-  commentId: M:ArgumentAPI.FloatParameterBuilder.WithUpperBound(System.Single)
-  name.vb: WithUpperBound(Single)
-  fullName: ArgumentAPI.FloatParameterBuilder.WithUpperBound(float)
-  fullName.vb: ArgumentAPI.FloatParameterBuilder.WithUpperBound(Single)
-  nameWithType: FloatParameterBuilder.WithUpperBound(float)
-  nameWithType.vb: FloatParameterBuilder.WithUpperBound(Single)
-- uid: ArgumentAPI.FloatParameterBuilder.WithUpperBound*
-  name: WithUpperBound
-  href: api/ArgumentAPI.FloatParameterBuilder.html#ArgumentAPI_FloatParameterBuilder_WithUpperBound_
-  commentId: Overload:ArgumentAPI.FloatParameterBuilder.WithUpperBound
-  isSpec: "True"
-  fullName: ArgumentAPI.FloatParameterBuilder.WithUpperBound
-  nameWithType: FloatParameterBuilder.WithUpperBound
-- uid: ArgumentAPI.Int
-  name: Int
-  href: api/ArgumentAPI.Int.html
-  commentId: T:ArgumentAPI.Int
-  fullName: ArgumentAPI.Int
-  nameWithType: Int
-- uid: ArgumentAPI.Int.Value
-  name: Value
-  href: api/ArgumentAPI.Int.html#ArgumentAPI_Int_Value
-  commentId: P:ArgumentAPI.Int.Value
-  fullName: ArgumentAPI.Int.Value
-  nameWithType: Int.Value
-- uid: ArgumentAPI.Int.Value*
-  name: Value
-  href: api/ArgumentAPI.Int.html#ArgumentAPI_Int_Value_
-  commentId: Overload:ArgumentAPI.Int.Value
-  isSpec: "True"
-  fullName: ArgumentAPI.Int.Value
-  nameWithType: Int.Value
-- uid: ArgumentAPI.Int.op_Implicit(ArgumentAPI.Int)~System.Int32
-  name: implicit operator int(Int)
-  href: api/ArgumentAPI.Int.html#ArgumentAPI_Int_op_Implicit_ArgumentAPI_Int__System_Int32
-  commentId: M:ArgumentAPI.Int.op_Implicit(ArgumentAPI.Int)~System.Int32
-  name.vb: CType(Int)
-  fullName: ArgumentAPI.Int.implicit operator int(ArgumentAPI.Int)
-  fullName.vb: ArgumentAPI.Int.CType(ArgumentAPI.Int)
-  nameWithType: Int.implicit operator int(Int)
-  nameWithType.vb: Int.CType(Int)
-- uid: ArgumentAPI.Int.op_Implicit*
-  name: implicit operator
-  href: api/ArgumentAPI.Int.html#ArgumentAPI_Int_op_Implicit_
-  commentId: Overload:ArgumentAPI.Int.op_Implicit
-  isSpec: "True"
-  name.vb: CType
-  fullName: ArgumentAPI.Int.implicit operator
-  fullName.vb: ArgumentAPI.Int.CType
-  nameWithType: Int.implicit operator
-  nameWithType.vb: Int.CType
-- uid: ArgumentAPI.IntParameter
-  name: IntParameter
-  href: api/ArgumentAPI.IntParameter.html
-  commentId: T:ArgumentAPI.IntParameter
-  fullName: ArgumentAPI.IntParameter
-  nameWithType: IntParameter
-- uid: ArgumentAPI.IntParameter.Value
-  name: Value()
-  href: api/ArgumentAPI.IntParameter.html#ArgumentAPI_IntParameter_Value
-  commentId: M:ArgumentAPI.IntParameter.Value
-  fullName: ArgumentAPI.IntParameter.Value()
-  nameWithType: IntParameter.Value()
-- uid: ArgumentAPI.IntParameter.Value*
-  name: Value
-  href: api/ArgumentAPI.IntParameter.html#ArgumentAPI_IntParameter_Value_
-  commentId: Overload:ArgumentAPI.IntParameter.Value
-  isSpec: "True"
-  fullName: ArgumentAPI.IntParameter.Value
-  nameWithType: IntParameter.Value
-- uid: ArgumentAPI.IntParameterBuilder
-  name: IntParameterBuilder
-  href: api/ArgumentAPI.IntParameterBuilder.html
-  commentId: T:ArgumentAPI.IntParameterBuilder
-  fullName: ArgumentAPI.IntParameterBuilder
-  nameWithType: IntParameterBuilder
-- uid: ArgumentAPI.IntParameterBuilder.GetParameter
-  name: GetParameter()
-  href: api/ArgumentAPI.IntParameterBuilder.html#ArgumentAPI_IntParameterBuilder_GetParameter
-  commentId: M:ArgumentAPI.IntParameterBuilder.GetParameter
-  fullName: ArgumentAPI.IntParameterBuilder.GetParameter()
-  nameWithType: IntParameterBuilder.GetParameter()
-- uid: ArgumentAPI.IntParameterBuilder.GetParameter*
-  name: GetParameter
-  href: api/ArgumentAPI.IntParameterBuilder.html#ArgumentAPI_IntParameterBuilder_GetParameter_
-  commentId: Overload:ArgumentAPI.IntParameterBuilder.GetParameter
-  isSpec: "True"
-  fullName: ArgumentAPI.IntParameterBuilder.GetParameter
-  nameWithType: IntParameterBuilder.GetParameter
-- uid: ArgumentAPI.IntParameterBuilder.WithDefaultValue(System.Int32)
-  name: WithDefaultValue(int)
-  href: api/ArgumentAPI.IntParameterBuilder.html#ArgumentAPI_IntParameterBuilder_WithDefaultValue_System_Int32_
-  commentId: M:ArgumentAPI.IntParameterBuilder.WithDefaultValue(System.Int32)
-  name.vb: WithDefaultValue(Integer)
-  fullName: ArgumentAPI.IntParameterBuilder.WithDefaultValue(int)
-  fullName.vb: ArgumentAPI.IntParameterBuilder.WithDefaultValue(Integer)
-  nameWithType: IntParameterBuilder.WithDefaultValue(int)
-  nameWithType.vb: IntParameterBuilder.WithDefaultValue(Integer)
-- uid: ArgumentAPI.IntParameterBuilder.WithDefaultValue*
-  name: WithDefaultValue
-  href: api/ArgumentAPI.IntParameterBuilder.html#ArgumentAPI_IntParameterBuilder_WithDefaultValue_
-  commentId: Overload:ArgumentAPI.IntParameterBuilder.WithDefaultValue
-  isSpec: "True"
-  fullName: ArgumentAPI.IntParameterBuilder.WithDefaultValue
-  nameWithType: IntParameterBuilder.WithDefaultValue
-- uid: ArgumentAPI.IntParameterBuilder.WithLambdaValidation(System.Func{System.Int32,System.Boolean})
-  name: WithLambdaValidation(Func<int, bool>?)
-  href: api/ArgumentAPI.IntParameterBuilder.html#ArgumentAPI_IntParameterBuilder_WithLambdaValidation_System_Func_System_Int32_System_Boolean__
-  commentId: M:ArgumentAPI.IntParameterBuilder.WithLambdaValidation(System.Func{System.Int32,System.Boolean})
-  name.vb: WithLambdaValidation(Func(Of Integer, Boolean))
-  fullName: ArgumentAPI.IntParameterBuilder.WithLambdaValidation(System.Func<int, bool>?)
-  fullName.vb: ArgumentAPI.IntParameterBuilder.WithLambdaValidation(System.Func(Of Integer, Boolean))
-  nameWithType: IntParameterBuilder.WithLambdaValidation(Func<int, bool>?)
-  nameWithType.vb: IntParameterBuilder.WithLambdaValidation(Func(Of Integer, Boolean))
-- uid: ArgumentAPI.IntParameterBuilder.WithLambdaValidation*
-  name: WithLambdaValidation
-  href: api/ArgumentAPI.IntParameterBuilder.html#ArgumentAPI_IntParameterBuilder_WithLambdaValidation_
-  commentId: Overload:ArgumentAPI.IntParameterBuilder.WithLambdaValidation
-  isSpec: "True"
-  fullName: ArgumentAPI.IntParameterBuilder.WithLambdaValidation
-  nameWithType: IntParameterBuilder.WithLambdaValidation
-- uid: ArgumentAPI.IntParameterBuilder.WithLowerBound(System.Int32)
-  name: WithLowerBound(int)
-  href: api/ArgumentAPI.IntParameterBuilder.html#ArgumentAPI_IntParameterBuilder_WithLowerBound_System_Int32_
-  commentId: M:ArgumentAPI.IntParameterBuilder.WithLowerBound(System.Int32)
-  name.vb: WithLowerBound(Integer)
-  fullName: ArgumentAPI.IntParameterBuilder.WithLowerBound(int)
-  fullName.vb: ArgumentAPI.IntParameterBuilder.WithLowerBound(Integer)
-  nameWithType: IntParameterBuilder.WithLowerBound(int)
-  nameWithType.vb: IntParameterBuilder.WithLowerBound(Integer)
-- uid: ArgumentAPI.IntParameterBuilder.WithLowerBound*
-  name: WithLowerBound
-  href: api/ArgumentAPI.IntParameterBuilder.html#ArgumentAPI_IntParameterBuilder_WithLowerBound_
-  commentId: Overload:ArgumentAPI.IntParameterBuilder.WithLowerBound
-  isSpec: "True"
-  fullName: ArgumentAPI.IntParameterBuilder.WithLowerBound
-  nameWithType: IntParameterBuilder.WithLowerBound
-- uid: ArgumentAPI.IntParameterBuilder.WithUpperBound(System.Int32)
-  name: WithUpperBound(int)
-  href: api/ArgumentAPI.IntParameterBuilder.html#ArgumentAPI_IntParameterBuilder_WithUpperBound_System_Int32_
-  commentId: M:ArgumentAPI.IntParameterBuilder.WithUpperBound(System.Int32)
-  name.vb: WithUpperBound(Integer)
-  fullName: ArgumentAPI.IntParameterBuilder.WithUpperBound(int)
-  fullName.vb: ArgumentAPI.IntParameterBuilder.WithUpperBound(Integer)
-  nameWithType: IntParameterBuilder.WithUpperBound(int)
-  nameWithType.vb: IntParameterBuilder.WithUpperBound(Integer)
-- uid: ArgumentAPI.IntParameterBuilder.WithUpperBound*
-  name: WithUpperBound
-  href: api/ArgumentAPI.IntParameterBuilder.html#ArgumentAPI_IntParameterBuilder_WithUpperBound_
-  commentId: Overload:ArgumentAPI.IntParameterBuilder.WithUpperBound
-  isSpec: "True"
-  fullName: ArgumentAPI.IntParameterBuilder.WithUpperBound
-  nameWithType: IntParameterBuilder.WithUpperBound
-- uid: ArgumentAPI.Option
+- uid: CMD_Parser
+  name: CMD_Parser
+  href: api/CMD_Parser.html
+  commentId: N:CMD_Parser
+  fullName: CMD_Parser
+  nameWithType: CMD_Parser
+- uid: CMD_Parser.Option
   name: Option
-  href: api/ArgumentAPI.Option.html
-  commentId: T:ArgumentAPI.Option
-  fullName: ArgumentAPI.Option
+  href: api/CMD_Parser.Option.html
+  commentId: T:CMD_Parser.Option
+  fullName: CMD_Parser.Option
   nameWithType: Option
-- uid: ArgumentAPI.Option.#ctor(System.String)
+- uid: CMD_Parser.Option.#ctor(System.String)
   name: Option(string)
-  href: api/ArgumentAPI.Option.html#ArgumentAPI_Option__ctor_System_String_
-  commentId: M:ArgumentAPI.Option.#ctor(System.String)
+  href: api/CMD_Parser.Option.html#CMD_Parser_Option__ctor_System_String_
+  commentId: M:CMD_Parser.Option.#ctor(System.String)
   name.vb: New(String)
-  fullName: ArgumentAPI.Option.Option(string)
-  fullName.vb: ArgumentAPI.Option.New(String)
+  fullName: CMD_Parser.Option.Option(string)
+  fullName.vb: CMD_Parser.Option.New(String)
   nameWithType: Option.Option(string)
   nameWithType.vb: Option.New(String)
-- uid: ArgumentAPI.Option.#ctor*
+- uid: CMD_Parser.Option.#ctor*
   name: Option
-  href: api/ArgumentAPI.Option.html#ArgumentAPI_Option__ctor_
-  commentId: Overload:ArgumentAPI.Option.#ctor
+  href: api/CMD_Parser.Option.html#CMD_Parser_Option__ctor_
+  commentId: Overload:CMD_Parser.Option.#ctor
   isSpec: "True"
   name.vb: New
-  fullName: ArgumentAPI.Option.Option
-  fullName.vb: ArgumentAPI.Option.New
+  fullName: CMD_Parser.Option.Option
+  fullName.vb: CMD_Parser.Option.New
   nameWithType: Option.Option
   nameWithType.vb: Option.New
-- uid: ArgumentAPI.OptionBuilder
+- uid: CMD_Parser.OptionBuilder
   name: OptionBuilder
-  href: api/ArgumentAPI.OptionBuilder.html
-  commentId: T:ArgumentAPI.OptionBuilder
-  fullName: ArgumentAPI.OptionBuilder
+  href: api/CMD_Parser.OptionBuilder.html
+  commentId: T:CMD_Parser.OptionBuilder
+  fullName: CMD_Parser.OptionBuilder
   nameWithType: OptionBuilder
-- uid: ArgumentAPI.OptionBuilder.#ctor(System.String)
-  name: OptionBuilder(string)
-  href: api/ArgumentAPI.OptionBuilder.html#ArgumentAPI_OptionBuilder__ctor_System_String_
-  commentId: M:ArgumentAPI.OptionBuilder.#ctor(System.String)
-  name.vb: New(String)
-  fullName: ArgumentAPI.OptionBuilder.OptionBuilder(string)
-  fullName.vb: ArgumentAPI.OptionBuilder.New(String)
-  nameWithType: OptionBuilder.OptionBuilder(string)
-  nameWithType.vb: OptionBuilder.New(String)
-- uid: ArgumentAPI.OptionBuilder.#ctor*
-  name: OptionBuilder
-  href: api/ArgumentAPI.OptionBuilder.html#ArgumentAPI_OptionBuilder__ctor_
-  commentId: Overload:ArgumentAPI.OptionBuilder.#ctor
+- uid: CMD_Parser.OptionBuilder.AsLongOption
+  name: AsLongOption()
+  href: api/CMD_Parser.OptionBuilder.html#CMD_Parser_OptionBuilder_AsLongOption
+  commentId: M:CMD_Parser.OptionBuilder.AsLongOption
+  fullName: CMD_Parser.OptionBuilder.AsLongOption()
+  nameWithType: OptionBuilder.AsLongOption()
+- uid: CMD_Parser.OptionBuilder.AsLongOption*
+  name: AsLongOption
+  href: api/CMD_Parser.OptionBuilder.html#CMD_Parser_OptionBuilder_AsLongOption_
+  commentId: Overload:CMD_Parser.OptionBuilder.AsLongOption
   isSpec: "True"
-  name.vb: New
-  fullName: ArgumentAPI.OptionBuilder.OptionBuilder
-  fullName.vb: ArgumentAPI.OptionBuilder.New
-  nameWithType: OptionBuilder.OptionBuilder
-  nameWithType.vb: OptionBuilder.New
-- uid: ArgumentAPI.OptionBuilder.IsLong
-  name: IsLong()
-  href: api/ArgumentAPI.OptionBuilder.html#ArgumentAPI_OptionBuilder_IsLong
-  commentId: M:ArgumentAPI.OptionBuilder.IsLong
-  fullName: ArgumentAPI.OptionBuilder.IsLong()
-  nameWithType: OptionBuilder.IsLong()
-- uid: ArgumentAPI.OptionBuilder.IsLong*
-  name: IsLong
-  href: api/ArgumentAPI.OptionBuilder.html#ArgumentAPI_OptionBuilder_IsLong_
-  commentId: Overload:ArgumentAPI.OptionBuilder.IsLong
+  fullName: CMD_Parser.OptionBuilder.AsLongOption
+  nameWithType: OptionBuilder.AsLongOption
+- uid: CMD_Parser.OptionBuilder.AsRequired
+  name: AsRequired()
+  href: api/CMD_Parser.OptionBuilder.html#CMD_Parser_OptionBuilder_AsRequired
+  commentId: M:CMD_Parser.OptionBuilder.AsRequired
+  fullName: CMD_Parser.OptionBuilder.AsRequired()
+  nameWithType: OptionBuilder.AsRequired()
+- uid: CMD_Parser.OptionBuilder.AsRequired*
+  name: AsRequired
+  href: api/CMD_Parser.OptionBuilder.html#CMD_Parser_OptionBuilder_AsRequired_
+  commentId: Overload:CMD_Parser.OptionBuilder.AsRequired
   isSpec: "True"
-  fullName: ArgumentAPI.OptionBuilder.IsLong
-  nameWithType: OptionBuilder.IsLong
-- uid: ArgumentAPI.OptionBuilder.IsRequired
-  name: IsRequired()
-  href: api/ArgumentAPI.OptionBuilder.html#ArgumentAPI_OptionBuilder_IsRequired
-  commentId: M:ArgumentAPI.OptionBuilder.IsRequired
-  fullName: ArgumentAPI.OptionBuilder.IsRequired()
-  nameWithType: OptionBuilder.IsRequired()
-- uid: ArgumentAPI.OptionBuilder.IsRequired*
-  name: IsRequired
-  href: api/ArgumentAPI.OptionBuilder.html#ArgumentAPI_OptionBuilder_IsRequired_
-  commentId: Overload:ArgumentAPI.OptionBuilder.IsRequired
+  fullName: CMD_Parser.OptionBuilder.AsRequired
+  nameWithType: OptionBuilder.AsRequired
+- uid: CMD_Parser.OptionBuilder.AsShortOption
+  name: AsShortOption()
+  href: api/CMD_Parser.OptionBuilder.html#CMD_Parser_OptionBuilder_AsShortOption
+  commentId: M:CMD_Parser.OptionBuilder.AsShortOption
+  fullName: CMD_Parser.OptionBuilder.AsShortOption()
+  nameWithType: OptionBuilder.AsShortOption()
+- uid: CMD_Parser.OptionBuilder.AsShortOption*
+  name: AsShortOption
+  href: api/CMD_Parser.OptionBuilder.html#CMD_Parser_OptionBuilder_AsShortOption_
+  commentId: Overload:CMD_Parser.OptionBuilder.AsShortOption
   isSpec: "True"
-  fullName: ArgumentAPI.OptionBuilder.IsRequired
-  nameWithType: OptionBuilder.IsRequired
-- uid: ArgumentAPI.OptionBuilder.IsShort
-  name: IsShort()
-  href: api/ArgumentAPI.OptionBuilder.html#ArgumentAPI_OptionBuilder_IsShort
-  commentId: M:ArgumentAPI.OptionBuilder.IsShort
-  fullName: ArgumentAPI.OptionBuilder.IsShort()
-  nameWithType: OptionBuilder.IsShort()
-- uid: ArgumentAPI.OptionBuilder.IsShort*
-  name: IsShort
-  href: api/ArgumentAPI.OptionBuilder.html#ArgumentAPI_OptionBuilder_IsShort_
-  commentId: Overload:ArgumentAPI.OptionBuilder.IsShort
-  isSpec: "True"
-  fullName: ArgumentAPI.OptionBuilder.IsShort
-  nameWithType: OptionBuilder.IsShort
-- uid: ArgumentAPI.OptionBuilder.SetOption(ArgumentAPI.APIControlUnit)
-  name: SetOption(APIControlUnit)
-  href: api/ArgumentAPI.OptionBuilder.html#ArgumentAPI_OptionBuilder_SetOption_ArgumentAPI_APIControlUnit_
-  commentId: M:ArgumentAPI.OptionBuilder.SetOption(ArgumentAPI.APIControlUnit)
-  fullName: ArgumentAPI.OptionBuilder.SetOption(ArgumentAPI.APIControlUnit)
-  nameWithType: OptionBuilder.SetOption(APIControlUnit)
-- uid: ArgumentAPI.OptionBuilder.SetOption*
+  fullName: CMD_Parser.OptionBuilder.AsShortOption
+  nameWithType: OptionBuilder.AsShortOption
+- uid: CMD_Parser.OptionBuilder.SetOption
+  name: SetOption()
+  href: api/CMD_Parser.OptionBuilder.html#CMD_Parser_OptionBuilder_SetOption
+  commentId: M:CMD_Parser.OptionBuilder.SetOption
+  fullName: CMD_Parser.OptionBuilder.SetOption()
+  nameWithType: OptionBuilder.SetOption()
+- uid: CMD_Parser.OptionBuilder.SetOption*
   name: SetOption
-  href: api/ArgumentAPI.OptionBuilder.html#ArgumentAPI_OptionBuilder_SetOption_
-  commentId: Overload:ArgumentAPI.OptionBuilder.SetOption
+  href: api/CMD_Parser.OptionBuilder.html#CMD_Parser_OptionBuilder_SetOption_
+  commentId: Overload:CMD_Parser.OptionBuilder.SetOption
   isSpec: "True"
-  fullName: ArgumentAPI.OptionBuilder.SetOption
+  fullName: CMD_Parser.OptionBuilder.SetOption
   nameWithType: OptionBuilder.SetOption
-- uid: ArgumentAPI.OptionBuilder.WithAlias(System.String)
-  name: WithAlias(string)
-  href: api/ArgumentAPI.OptionBuilder.html#ArgumentAPI_OptionBuilder_WithAlias_System_String_
-  commentId: M:ArgumentAPI.OptionBuilder.WithAlias(System.String)
-  name.vb: WithAlias(String)
-  fullName: ArgumentAPI.OptionBuilder.WithAlias(string)
-  fullName.vb: ArgumentAPI.OptionBuilder.WithAlias(String)
-  nameWithType: OptionBuilder.WithAlias(string)
-  nameWithType.vb: OptionBuilder.WithAlias(String)
-- uid: ArgumentAPI.OptionBuilder.WithAlias*
+- uid: CMD_Parser.OptionBuilder.WithAlias(System.String[])
+  name: WithAlias(params string[])
+  href: api/CMD_Parser.OptionBuilder.html#CMD_Parser_OptionBuilder_WithAlias_System_String___
+  commentId: M:CMD_Parser.OptionBuilder.WithAlias(System.String[])
+  name.vb: WithAlias(ParamArray String())
+  fullName: CMD_Parser.OptionBuilder.WithAlias(params string[])
+  fullName.vb: CMD_Parser.OptionBuilder.WithAlias(ParamArray String())
+  nameWithType: OptionBuilder.WithAlias(params string[])
+  nameWithType.vb: OptionBuilder.WithAlias(ParamArray String())
+- uid: CMD_Parser.OptionBuilder.WithAlias*
   name: WithAlias
-  href: api/ArgumentAPI.OptionBuilder.html#ArgumentAPI_OptionBuilder_WithAlias_
-  commentId: Overload:ArgumentAPI.OptionBuilder.WithAlias
+  href: api/CMD_Parser.OptionBuilder.html#CMD_Parser_OptionBuilder_WithAlias_
+  commentId: Overload:CMD_Parser.OptionBuilder.WithAlias
   isSpec: "True"
-  fullName: ArgumentAPI.OptionBuilder.WithAlias
+  fullName: CMD_Parser.OptionBuilder.WithAlias
   nameWithType: OptionBuilder.WithAlias
-- uid: ArgumentAPI.OptionBuilder.WithHelp(System.String)
+- uid: CMD_Parser.OptionBuilder.WithGroup(System.Int32[])
+  name: WithGroup(params int[])
+  href: api/CMD_Parser.OptionBuilder.html#CMD_Parser_OptionBuilder_WithGroup_System_Int32___
+  commentId: M:CMD_Parser.OptionBuilder.WithGroup(System.Int32[])
+  name.vb: WithGroup(ParamArray Integer())
+  fullName: CMD_Parser.OptionBuilder.WithGroup(params int[])
+  fullName.vb: CMD_Parser.OptionBuilder.WithGroup(ParamArray Integer())
+  nameWithType: OptionBuilder.WithGroup(params int[])
+  nameWithType.vb: OptionBuilder.WithGroup(ParamArray Integer())
+- uid: CMD_Parser.OptionBuilder.WithGroup*
+  name: WithGroup
+  href: api/CMD_Parser.OptionBuilder.html#CMD_Parser_OptionBuilder_WithGroup_
+  commentId: Overload:CMD_Parser.OptionBuilder.WithGroup
+  isSpec: "True"
+  fullName: CMD_Parser.OptionBuilder.WithGroup
+  nameWithType: OptionBuilder.WithGroup
+- uid: CMD_Parser.OptionBuilder.WithHelp(System.String)
   name: WithHelp(string)
-  href: api/ArgumentAPI.OptionBuilder.html#ArgumentAPI_OptionBuilder_WithHelp_System_String_
-  commentId: M:ArgumentAPI.OptionBuilder.WithHelp(System.String)
+  href: api/CMD_Parser.OptionBuilder.html#CMD_Parser_OptionBuilder_WithHelp_System_String_
+  commentId: M:CMD_Parser.OptionBuilder.WithHelp(System.String)
   name.vb: WithHelp(String)
-  fullName: ArgumentAPI.OptionBuilder.WithHelp(string)
-  fullName.vb: ArgumentAPI.OptionBuilder.WithHelp(String)
+  fullName: CMD_Parser.OptionBuilder.WithHelp(string)
+  fullName.vb: CMD_Parser.OptionBuilder.WithHelp(String)
   nameWithType: OptionBuilder.WithHelp(string)
   nameWithType.vb: OptionBuilder.WithHelp(String)
-- uid: ArgumentAPI.OptionBuilder.WithHelp*
+- uid: CMD_Parser.OptionBuilder.WithHelp*
   name: WithHelp
-  href: api/ArgumentAPI.OptionBuilder.html#ArgumentAPI_OptionBuilder_WithHelp_
-  commentId: Overload:ArgumentAPI.OptionBuilder.WithHelp
+  href: api/CMD_Parser.OptionBuilder.html#CMD_Parser_OptionBuilder_WithHelp_
+  commentId: Overload:CMD_Parser.OptionBuilder.WithHelp
   isSpec: "True"
-  fullName: ArgumentAPI.OptionBuilder.WithHelp
+  fullName: CMD_Parser.OptionBuilder.WithHelp
   nameWithType: OptionBuilder.WithHelp
-- uid: ArgumentAPI.OptionBuilder.WithPair(System.String)
+- uid: CMD_Parser.OptionBuilder.WithPair(System.String)
   name: WithPair(string)
-  href: api/ArgumentAPI.OptionBuilder.html#ArgumentAPI_OptionBuilder_WithPair_System_String_
-  commentId: M:ArgumentAPI.OptionBuilder.WithPair(System.String)
+  href: api/CMD_Parser.OptionBuilder.html#CMD_Parser_OptionBuilder_WithPair_System_String_
+  commentId: M:CMD_Parser.OptionBuilder.WithPair(System.String)
   name.vb: WithPair(String)
-  fullName: ArgumentAPI.OptionBuilder.WithPair(string)
-  fullName.vb: ArgumentAPI.OptionBuilder.WithPair(String)
+  fullName: CMD_Parser.OptionBuilder.WithPair(string)
+  fullName.vb: CMD_Parser.OptionBuilder.WithPair(String)
   nameWithType: OptionBuilder.WithPair(string)
   nameWithType.vb: OptionBuilder.WithPair(String)
-- uid: ArgumentAPI.OptionBuilder.WithPair*
+- uid: CMD_Parser.OptionBuilder.WithPair*
   name: WithPair
-  href: api/ArgumentAPI.OptionBuilder.html#ArgumentAPI_OptionBuilder_WithPair_
-  commentId: Overload:ArgumentAPI.OptionBuilder.WithPair
+  href: api/CMD_Parser.OptionBuilder.html#CMD_Parser_OptionBuilder_WithPair_
+  commentId: Overload:CMD_Parser.OptionBuilder.WithPair
   isSpec: "True"
-  fullName: ArgumentAPI.OptionBuilder.WithPair
+  fullName: CMD_Parser.OptionBuilder.WithPair
   nameWithType: OptionBuilder.WithPair
-- uid: ArgumentAPI.OptionBuilder.WithParameter(ArgumentAPI.Parameter)
-  name: WithParameter(Parameter)
-  href: api/ArgumentAPI.OptionBuilder.html#ArgumentAPI_OptionBuilder_WithParameter_ArgumentAPI_Parameter_
-  commentId: M:ArgumentAPI.OptionBuilder.WithParameter(ArgumentAPI.Parameter)
-  fullName: ArgumentAPI.OptionBuilder.WithParameter(ArgumentAPI.Parameter)
-  nameWithType: OptionBuilder.WithParameter(Parameter)
-- uid: ArgumentAPI.OptionBuilder.WithParameter*
+- uid: CMD_Parser.OptionBuilder.WithParameter*
   name: WithParameter
-  href: api/ArgumentAPI.OptionBuilder.html#ArgumentAPI_OptionBuilder_WithParameter_
-  commentId: Overload:ArgumentAPI.OptionBuilder.WithParameter
+  href: api/CMD_Parser.OptionBuilder.html#CMD_Parser_OptionBuilder_WithParameter_
+  commentId: Overload:CMD_Parser.OptionBuilder.WithParameter
   isSpec: "True"
-  fullName: ArgumentAPI.OptionBuilder.WithParameter
+  fullName: CMD_Parser.OptionBuilder.WithParameter
   nameWithType: OptionBuilder.WithParameter
-- uid: ArgumentAPI.Parameter
-  name: Parameter
-  href: api/ArgumentAPI.Parameter.html
-  commentId: T:ArgumentAPI.Parameter
-  fullName: ArgumentAPI.Parameter
-  nameWithType: Parameter
-- uid: ArgumentAPI.Parameter.Value
-  name: Value()
-  href: api/ArgumentAPI.Parameter.html#ArgumentAPI_Parameter_Value
-  commentId: M:ArgumentAPI.Parameter.Value
-  fullName: ArgumentAPI.Parameter.Value()
-  nameWithType: Parameter.Value()
-- uid: ArgumentAPI.Parameter.Value*
-  name: Value
-  href: api/ArgumentAPI.Parameter.html#ArgumentAPI_Parameter_Value_
-  commentId: Overload:ArgumentAPI.Parameter.Value
-  isSpec: "True"
-  fullName: ArgumentAPI.Parameter.Value
-  nameWithType: Parameter.Value
-- uid: ArgumentAPI.ParameterBuilder
+- uid: CMD_Parser.OptionBuilder.WithParameter``1(CMD_Parser.Parameter{``0})
+  name: WithParameter<T>(Parameter<T>)
+  href: api/CMD_Parser.OptionBuilder.html#CMD_Parser_OptionBuilder_WithParameter__1_CMD_Parser_Parameter___0__
+  commentId: M:CMD_Parser.OptionBuilder.WithParameter``1(CMD_Parser.Parameter{``0})
+  name.vb: WithParameter(Of T)(Parameter(Of T))
+  fullName: CMD_Parser.OptionBuilder.WithParameter<T>(CMD_Parser.Parameter<T>)
+  fullName.vb: CMD_Parser.OptionBuilder.WithParameter(Of T)(CMD_Parser.Parameter(Of T))
+  nameWithType: OptionBuilder.WithParameter<T>(Parameter<T>)
+  nameWithType.vb: OptionBuilder.WithParameter(Of T)(Parameter(Of T))
+- uid: CMD_Parser.ParameterBuilder`1
+  name: ParameterBuilder<T>
+  href: api/CMD_Parser.ParameterBuilder-1.html
+  commentId: T:CMD_Parser.ParameterBuilder`1
+  name.vb: ParameterBuilder(Of T)
+  fullName: CMD_Parser.ParameterBuilder<T>
+  fullName.vb: CMD_Parser.ParameterBuilder(Of T)
+  nameWithType: ParameterBuilder<T>
+  nameWithType.vb: ParameterBuilder(Of T)
+- uid: CMD_Parser.ParameterBuilder`1.#ctor(System.String)
+  name: ParameterBuilder(string)
+  href: api/CMD_Parser.ParameterBuilder-1.html#CMD_Parser_ParameterBuilder_1__ctor_System_String_
+  commentId: M:CMD_Parser.ParameterBuilder`1.#ctor(System.String)
+  name.vb: New(String)
+  fullName: CMD_Parser.ParameterBuilder<T>.ParameterBuilder(string)
+  fullName.vb: CMD_Parser.ParameterBuilder(Of T).New(String)
+  nameWithType: ParameterBuilder<T>.ParameterBuilder(string)
+  nameWithType.vb: ParameterBuilder(Of T).New(String)
+- uid: CMD_Parser.ParameterBuilder`1.#ctor*
   name: ParameterBuilder
-  href: api/ArgumentAPI.ParameterBuilder.html
-  commentId: T:ArgumentAPI.ParameterBuilder
-  fullName: ArgumentAPI.ParameterBuilder
-  nameWithType: ParameterBuilder
-- uid: ArgumentAPI.ParameterBuilder.GetParameter
+  href: api/CMD_Parser.ParameterBuilder-1.html#CMD_Parser_ParameterBuilder_1__ctor_
+  commentId: Overload:CMD_Parser.ParameterBuilder`1.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: CMD_Parser.ParameterBuilder<T>.ParameterBuilder
+  fullName.vb: CMD_Parser.ParameterBuilder(Of T).New
+  nameWithType: ParameterBuilder<T>.ParameterBuilder
+  nameWithType.vb: ParameterBuilder(Of T).New
+- uid: CMD_Parser.ParameterBuilder`1.AsRequired
+  name: AsRequired()
+  href: api/CMD_Parser.ParameterBuilder-1.html#CMD_Parser_ParameterBuilder_1_AsRequired
+  commentId: M:CMD_Parser.ParameterBuilder`1.AsRequired
+  fullName: CMD_Parser.ParameterBuilder<T>.AsRequired()
+  fullName.vb: CMD_Parser.ParameterBuilder(Of T).AsRequired()
+  nameWithType: ParameterBuilder<T>.AsRequired()
+  nameWithType.vb: ParameterBuilder(Of T).AsRequired()
+- uid: CMD_Parser.ParameterBuilder`1.AsRequired*
+  name: AsRequired
+  href: api/CMD_Parser.ParameterBuilder-1.html#CMD_Parser_ParameterBuilder_1_AsRequired_
+  commentId: Overload:CMD_Parser.ParameterBuilder`1.AsRequired
+  isSpec: "True"
+  fullName: CMD_Parser.ParameterBuilder<T>.AsRequired
+  fullName.vb: CMD_Parser.ParameterBuilder(Of T).AsRequired
+  nameWithType: ParameterBuilder<T>.AsRequired
+  nameWithType.vb: ParameterBuilder(Of T).AsRequired
+- uid: CMD_Parser.ParameterBuilder`1.GetParameter
   name: GetParameter()
-  href: api/ArgumentAPI.ParameterBuilder.html#ArgumentAPI_ParameterBuilder_GetParameter
-  commentId: M:ArgumentAPI.ParameterBuilder.GetParameter
-  fullName: ArgumentAPI.ParameterBuilder.GetParameter()
-  nameWithType: ParameterBuilder.GetParameter()
-- uid: ArgumentAPI.ParameterBuilder.GetParameter*
+  href: api/CMD_Parser.ParameterBuilder-1.html#CMD_Parser_ParameterBuilder_1_GetParameter
+  commentId: M:CMD_Parser.ParameterBuilder`1.GetParameter
+  fullName: CMD_Parser.ParameterBuilder<T>.GetParameter()
+  fullName.vb: CMD_Parser.ParameterBuilder(Of T).GetParameter()
+  nameWithType: ParameterBuilder<T>.GetParameter()
+  nameWithType.vb: ParameterBuilder(Of T).GetParameter()
+- uid: CMD_Parser.ParameterBuilder`1.GetParameter*
   name: GetParameter
-  href: api/ArgumentAPI.ParameterBuilder.html#ArgumentAPI_ParameterBuilder_GetParameter_
-  commentId: Overload:ArgumentAPI.ParameterBuilder.GetParameter
+  href: api/CMD_Parser.ParameterBuilder-1.html#CMD_Parser_ParameterBuilder_1_GetParameter_
+  commentId: Overload:CMD_Parser.ParameterBuilder`1.GetParameter
   isSpec: "True"
-  fullName: ArgumentAPI.ParameterBuilder.GetParameter
-  nameWithType: ParameterBuilder.GetParameter
-- uid: ArgumentAPI.ParameterBuilder.IsEnum
-  name: IsEnum()
-  href: api/ArgumentAPI.ParameterBuilder.html#ArgumentAPI_ParameterBuilder_IsEnum
-  commentId: M:ArgumentAPI.ParameterBuilder.IsEnum
-  fullName: ArgumentAPI.ParameterBuilder.IsEnum()
-  nameWithType: ParameterBuilder.IsEnum()
-- uid: ArgumentAPI.ParameterBuilder.IsEnum*
-  name: IsEnum
-  href: api/ArgumentAPI.ParameterBuilder.html#ArgumentAPI_ParameterBuilder_IsEnum_
-  commentId: Overload:ArgumentAPI.ParameterBuilder.IsEnum
+  fullName: CMD_Parser.ParameterBuilder<T>.GetParameter
+  fullName.vb: CMD_Parser.ParameterBuilder(Of T).GetParameter
+  nameWithType: ParameterBuilder<T>.GetParameter
+  nameWithType.vb: ParameterBuilder(Of T).GetParameter
+- uid: CMD_Parser.ParameterBuilder`1.SetParameter
+  name: SetParameter()
+  href: api/CMD_Parser.ParameterBuilder-1.html#CMD_Parser_ParameterBuilder_1_SetParameter
+  commentId: M:CMD_Parser.ParameterBuilder`1.SetParameter
+  fullName: CMD_Parser.ParameterBuilder<T>.SetParameter()
+  fullName.vb: CMD_Parser.ParameterBuilder(Of T).SetParameter()
+  nameWithType: ParameterBuilder<T>.SetParameter()
+  nameWithType.vb: ParameterBuilder(Of T).SetParameter()
+- uid: CMD_Parser.ParameterBuilder`1.SetParameter*
+  name: SetParameter
+  href: api/CMD_Parser.ParameterBuilder-1.html#CMD_Parser_ParameterBuilder_1_SetParameter_
+  commentId: Overload:CMD_Parser.ParameterBuilder`1.SetParameter
   isSpec: "True"
-  fullName: ArgumentAPI.ParameterBuilder.IsEnum
-  nameWithType: ParameterBuilder.IsEnum
-- uid: ArgumentAPI.ParameterBuilder.IsFloat
-  name: IsFloat()
-  href: api/ArgumentAPI.ParameterBuilder.html#ArgumentAPI_ParameterBuilder_IsFloat
-  commentId: M:ArgumentAPI.ParameterBuilder.IsFloat
-  fullName: ArgumentAPI.ParameterBuilder.IsFloat()
-  nameWithType: ParameterBuilder.IsFloat()
-- uid: ArgumentAPI.ParameterBuilder.IsFloat*
-  name: IsFloat
-  href: api/ArgumentAPI.ParameterBuilder.html#ArgumentAPI_ParameterBuilder_IsFloat_
-  commentId: Overload:ArgumentAPI.ParameterBuilder.IsFloat
-  isSpec: "True"
-  fullName: ArgumentAPI.ParameterBuilder.IsFloat
-  nameWithType: ParameterBuilder.IsFloat
-- uid: ArgumentAPI.ParameterBuilder.IsInt
-  name: IsInt()
-  href: api/ArgumentAPI.ParameterBuilder.html#ArgumentAPI_ParameterBuilder_IsInt
-  commentId: M:ArgumentAPI.ParameterBuilder.IsInt
-  fullName: ArgumentAPI.ParameterBuilder.IsInt()
-  nameWithType: ParameterBuilder.IsInt()
-- uid: ArgumentAPI.ParameterBuilder.IsInt*
-  name: IsInt
-  href: api/ArgumentAPI.ParameterBuilder.html#ArgumentAPI_ParameterBuilder_IsInt_
-  commentId: Overload:ArgumentAPI.ParameterBuilder.IsInt
-  isSpec: "True"
-  fullName: ArgumentAPI.ParameterBuilder.IsInt
-  nameWithType: ParameterBuilder.IsInt
-- uid: ArgumentAPI.ParameterBuilder.IsRequired
-  name: IsRequired()
-  href: api/ArgumentAPI.ParameterBuilder.html#ArgumentAPI_ParameterBuilder_IsRequired
-  commentId: M:ArgumentAPI.ParameterBuilder.IsRequired
-  fullName: ArgumentAPI.ParameterBuilder.IsRequired()
-  nameWithType: ParameterBuilder.IsRequired()
-- uid: ArgumentAPI.ParameterBuilder.IsRequired*
-  name: IsRequired
-  href: api/ArgumentAPI.ParameterBuilder.html#ArgumentAPI_ParameterBuilder_IsRequired_
-  commentId: Overload:ArgumentAPI.ParameterBuilder.IsRequired
-  isSpec: "True"
-  fullName: ArgumentAPI.ParameterBuilder.IsRequired
-  nameWithType: ParameterBuilder.IsRequired
-- uid: ArgumentAPI.ParameterBuilder.IsString
-  name: IsString()
-  href: api/ArgumentAPI.ParameterBuilder.html#ArgumentAPI_ParameterBuilder_IsString
-  commentId: M:ArgumentAPI.ParameterBuilder.IsString
-  fullName: ArgumentAPI.ParameterBuilder.IsString()
-  nameWithType: ParameterBuilder.IsString()
-- uid: ArgumentAPI.ParameterBuilder.IsString*
-  name: IsString
-  href: api/ArgumentAPI.ParameterBuilder.html#ArgumentAPI_ParameterBuilder_IsString_
-  commentId: Overload:ArgumentAPI.ParameterBuilder.IsString
-  isSpec: "True"
-  fullName: ArgumentAPI.ParameterBuilder.IsString
-  nameWithType: ParameterBuilder.IsString
-- uid: ArgumentAPI.ParameterBuilder.WithLambdaValidation
-  name: WithLambdaValidation()
-  href: api/ArgumentAPI.ParameterBuilder.html#ArgumentAPI_ParameterBuilder_WithLambdaValidation
-  commentId: M:ArgumentAPI.ParameterBuilder.WithLambdaValidation
-  fullName: ArgumentAPI.ParameterBuilder.WithLambdaValidation()
-  nameWithType: ParameterBuilder.WithLambdaValidation()
-- uid: ArgumentAPI.ParameterBuilder.WithLambdaValidation*
-  name: WithLambdaValidation
-  href: api/ArgumentAPI.ParameterBuilder.html#ArgumentAPI_ParameterBuilder_WithLambdaValidation_
-  commentId: Overload:ArgumentAPI.ParameterBuilder.WithLambdaValidation
-  isSpec: "True"
-  fullName: ArgumentAPI.ParameterBuilder.WithLambdaValidation
-  nameWithType: ParameterBuilder.WithLambdaValidation
-- uid: ArgumentAPI.StringParameter
-  name: StringParameter
-  href: api/ArgumentAPI.StringParameter.html
-  commentId: T:ArgumentAPI.StringParameter
-  fullName: ArgumentAPI.StringParameter
-  nameWithType: StringParameter
-- uid: ArgumentAPI.StringParameter.Value
-  name: Value()
-  href: api/ArgumentAPI.StringParameter.html#ArgumentAPI_StringParameter_Value
-  commentId: M:ArgumentAPI.StringParameter.Value
-  fullName: ArgumentAPI.StringParameter.Value()
-  nameWithType: StringParameter.Value()
-- uid: ArgumentAPI.StringParameter.Value*
-  name: Value
-  href: api/ArgumentAPI.StringParameter.html#ArgumentAPI_StringParameter_Value_
-  commentId: Overload:ArgumentAPI.StringParameter.Value
-  isSpec: "True"
-  fullName: ArgumentAPI.StringParameter.Value
-  nameWithType: StringParameter.Value
-- uid: ArgumentAPI.StringParameterBuilder
-  name: StringParameterBuilder
-  href: api/ArgumentAPI.StringParameterBuilder.html
-  commentId: T:ArgumentAPI.StringParameterBuilder
-  fullName: ArgumentAPI.StringParameterBuilder
-  nameWithType: StringParameterBuilder
-- uid: ArgumentAPI.StringParameterBuilder.GetParameter
-  name: GetParameter()
-  href: api/ArgumentAPI.StringParameterBuilder.html#ArgumentAPI_StringParameterBuilder_GetParameter
-  commentId: M:ArgumentAPI.StringParameterBuilder.GetParameter
-  fullName: ArgumentAPI.StringParameterBuilder.GetParameter()
-  nameWithType: StringParameterBuilder.GetParameter()
-- uid: ArgumentAPI.StringParameterBuilder.GetParameter*
-  name: GetParameter
-  href: api/ArgumentAPI.StringParameterBuilder.html#ArgumentAPI_StringParameterBuilder_GetParameter_
-  commentId: Overload:ArgumentAPI.StringParameterBuilder.GetParameter
-  isSpec: "True"
-  fullName: ArgumentAPI.StringParameterBuilder.GetParameter
-  nameWithType: StringParameterBuilder.GetParameter
-- uid: ArgumentAPI.StringParameterBuilder.WithDefaultValue(System.String)
-  name: WithDefaultValue(string)
-  href: api/ArgumentAPI.StringParameterBuilder.html#ArgumentAPI_StringParameterBuilder_WithDefaultValue_System_String_
-  commentId: M:ArgumentAPI.StringParameterBuilder.WithDefaultValue(System.String)
-  name.vb: WithDefaultValue(String)
-  fullName: ArgumentAPI.StringParameterBuilder.WithDefaultValue(string)
-  fullName.vb: ArgumentAPI.StringParameterBuilder.WithDefaultValue(String)
-  nameWithType: StringParameterBuilder.WithDefaultValue(string)
-  nameWithType.vb: StringParameterBuilder.WithDefaultValue(String)
-- uid: ArgumentAPI.StringParameterBuilder.WithDefaultValue*
+  fullName: CMD_Parser.ParameterBuilder<T>.SetParameter
+  fullName.vb: CMD_Parser.ParameterBuilder(Of T).SetParameter
+  nameWithType: ParameterBuilder<T>.SetParameter
+  nameWithType.vb: ParameterBuilder(Of T).SetParameter
+- uid: CMD_Parser.ParameterBuilder`1.WithDefaultValue(`0)
+  name: WithDefaultValue(T)
+  href: api/CMD_Parser.ParameterBuilder-1.html#CMD_Parser_ParameterBuilder_1_WithDefaultValue__0_
+  commentId: M:CMD_Parser.ParameterBuilder`1.WithDefaultValue(`0)
+  fullName: CMD_Parser.ParameterBuilder<T>.WithDefaultValue(T)
+  fullName.vb: CMD_Parser.ParameterBuilder(Of T).WithDefaultValue(T)
+  nameWithType: ParameterBuilder<T>.WithDefaultValue(T)
+  nameWithType.vb: ParameterBuilder(Of T).WithDefaultValue(T)
+- uid: CMD_Parser.ParameterBuilder`1.WithDefaultValue*
   name: WithDefaultValue
-  href: api/ArgumentAPI.StringParameterBuilder.html#ArgumentAPI_StringParameterBuilder_WithDefaultValue_
-  commentId: Overload:ArgumentAPI.StringParameterBuilder.WithDefaultValue
+  href: api/CMD_Parser.ParameterBuilder-1.html#CMD_Parser_ParameterBuilder_1_WithDefaultValue_
+  commentId: Overload:CMD_Parser.ParameterBuilder`1.WithDefaultValue
   isSpec: "True"
-  fullName: ArgumentAPI.StringParameterBuilder.WithDefaultValue
-  nameWithType: StringParameterBuilder.WithDefaultValue
-- uid: ArgumentAPI.StringParameterBuilder.WithLambdaValidation(System.Func{System.String,System.Boolean})
-  name: WithLambdaValidation(Func<string, bool>?)
-  href: api/ArgumentAPI.StringParameterBuilder.html#ArgumentAPI_StringParameterBuilder_WithLambdaValidation_System_Func_System_String_System_Boolean__
-  commentId: M:ArgumentAPI.StringParameterBuilder.WithLambdaValidation(System.Func{System.String,System.Boolean})
-  name.vb: WithLambdaValidation(Func(Of String, Boolean))
-  fullName: ArgumentAPI.StringParameterBuilder.WithLambdaValidation(System.Func<string, bool>?)
-  fullName.vb: ArgumentAPI.StringParameterBuilder.WithLambdaValidation(System.Func(Of String, Boolean))
-  nameWithType: StringParameterBuilder.WithLambdaValidation(Func<string, bool>?)
-  nameWithType.vb: StringParameterBuilder.WithLambdaValidation(Func(Of String, Boolean))
-- uid: ArgumentAPI.StringParameterBuilder.WithLambdaValidation*
+  fullName: CMD_Parser.ParameterBuilder<T>.WithDefaultValue
+  fullName.vb: CMD_Parser.ParameterBuilder(Of T).WithDefaultValue
+  nameWithType: ParameterBuilder<T>.WithDefaultValue
+  nameWithType.vb: ParameterBuilder(Of T).WithDefaultValue
+- uid: CMD_Parser.ParameterBuilder`1.WithHelp(System.String)
+  name: WithHelp(string)
+  href: api/CMD_Parser.ParameterBuilder-1.html#CMD_Parser_ParameterBuilder_1_WithHelp_System_String_
+  commentId: M:CMD_Parser.ParameterBuilder`1.WithHelp(System.String)
+  name.vb: WithHelp(String)
+  fullName: CMD_Parser.ParameterBuilder<T>.WithHelp(string)
+  fullName.vb: CMD_Parser.ParameterBuilder(Of T).WithHelp(String)
+  nameWithType: ParameterBuilder<T>.WithHelp(string)
+  nameWithType.vb: ParameterBuilder(Of T).WithHelp(String)
+- uid: CMD_Parser.ParameterBuilder`1.WithHelp*
+  name: WithHelp
+  href: api/CMD_Parser.ParameterBuilder-1.html#CMD_Parser_ParameterBuilder_1_WithHelp_
+  commentId: Overload:CMD_Parser.ParameterBuilder`1.WithHelp
+  isSpec: "True"
+  fullName: CMD_Parser.ParameterBuilder<T>.WithHelp
+  fullName.vb: CMD_Parser.ParameterBuilder(Of T).WithHelp
+  nameWithType: ParameterBuilder<T>.WithHelp
+  nameWithType.vb: ParameterBuilder(Of T).WithHelp
+- uid: CMD_Parser.ParameterBuilder`1.WithLambdaValidation(System.Func{`0,System.Boolean})
+  name: WithLambdaValidation(Func<T, bool>)
+  href: api/CMD_Parser.ParameterBuilder-1.html#CMD_Parser_ParameterBuilder_1_WithLambdaValidation_System_Func__0_System_Boolean__
+  commentId: M:CMD_Parser.ParameterBuilder`1.WithLambdaValidation(System.Func{`0,System.Boolean})
+  name.vb: WithLambdaValidation(Func(Of T, Boolean))
+  fullName: CMD_Parser.ParameterBuilder<T>.WithLambdaValidation(System.Func<T, bool>)
+  fullName.vb: CMD_Parser.ParameterBuilder(Of T).WithLambdaValidation(System.Func(Of T, Boolean))
+  nameWithType: ParameterBuilder<T>.WithLambdaValidation(Func<T, bool>)
+  nameWithType.vb: ParameterBuilder(Of T).WithLambdaValidation(Func(Of T, Boolean))
+- uid: CMD_Parser.ParameterBuilder`1.WithLambdaValidation*
   name: WithLambdaValidation
-  href: api/ArgumentAPI.StringParameterBuilder.html#ArgumentAPI_StringParameterBuilder_WithLambdaValidation_
-  commentId: Overload:ArgumentAPI.StringParameterBuilder.WithLambdaValidation
+  href: api/CMD_Parser.ParameterBuilder-1.html#CMD_Parser_ParameterBuilder_1_WithLambdaValidation_
+  commentId: Overload:CMD_Parser.ParameterBuilder`1.WithLambdaValidation
   isSpec: "True"
-  fullName: ArgumentAPI.StringParameterBuilder.WithLambdaValidation
-  nameWithType: StringParameterBuilder.WithLambdaValidation
+  fullName: CMD_Parser.ParameterBuilder<T>.WithLambdaValidation
+  fullName.vb: CMD_Parser.ParameterBuilder(Of T).WithLambdaValidation
+  nameWithType: ParameterBuilder<T>.WithLambdaValidation
+  nameWithType.vb: ParameterBuilder(Of T).WithLambdaValidation
+- uid: CMD_Parser.Parameter`1
+  name: Parameter<T>
+  href: api/CMD_Parser.Parameter-1.html
+  commentId: T:CMD_Parser.Parameter`1
+  name.vb: Parameter(Of T)
+  fullName: CMD_Parser.Parameter<T>
+  fullName.vb: CMD_Parser.Parameter(Of T)
+  nameWithType: Parameter<T>
+  nameWithType.vb: Parameter(Of T)
+- uid: CMD_Parser.Parameter`1.Value
+  name: Value()
+  href: api/CMD_Parser.Parameter-1.html#CMD_Parser_Parameter_1_Value
+  commentId: M:CMD_Parser.Parameter`1.Value
+  fullName: CMD_Parser.Parameter<T>.Value()
+  fullName.vb: CMD_Parser.Parameter(Of T).Value()
+  nameWithType: Parameter<T>.Value()
+  nameWithType.vb: Parameter(Of T).Value()
+- uid: CMD_Parser.Parameter`1.Value*
+  name: Value
+  href: api/CMD_Parser.Parameter-1.html#CMD_Parser_Parameter_1_Value_
+  commentId: Overload:CMD_Parser.Parameter`1.Value
+  isSpec: "True"
+  fullName: CMD_Parser.Parameter<T>.Value
+  fullName.vb: CMD_Parser.Parameter(Of T).Value
+  nameWithType: Parameter<T>.Value
+  nameWithType.vb: Parameter(Of T).Value
+- uid: CMD_Parser.ParserControl
+  name: ParserControl
+  href: api/CMD_Parser.ParserControl.html
+  commentId: T:CMD_Parser.ParserControl
+  fullName: CMD_Parser.ParserControl
+  nameWithType: ParserControl
+- uid: CMD_Parser.ParserControl.AddOption(System.String)
+  name: AddOption(string)
+  href: api/CMD_Parser.ParserControl.html#CMD_Parser_ParserControl_AddOption_System_String_
+  commentId: M:CMD_Parser.ParserControl.AddOption(System.String)
+  name.vb: AddOption(String)
+  fullName: CMD_Parser.ParserControl.AddOption(string)
+  fullName.vb: CMD_Parser.ParserControl.AddOption(String)
+  nameWithType: ParserControl.AddOption(string)
+  nameWithType.vb: ParserControl.AddOption(String)
+- uid: CMD_Parser.ParserControl.AddOption*
+  name: AddOption
+  href: api/CMD_Parser.ParserControl.html#CMD_Parser_ParserControl_AddOption_
+  commentId: Overload:CMD_Parser.ParserControl.AddOption
+  isSpec: "True"
+  fullName: CMD_Parser.ParserControl.AddOption
+  nameWithType: ParserControl.AddOption
+- uid: CMD_Parser.ParserControl.AddParameter*
+  name: AddParameter
+  href: api/CMD_Parser.ParserControl.html#CMD_Parser_ParserControl_AddParameter_
+  commentId: Overload:CMD_Parser.ParserControl.AddParameter
+  isSpec: "True"
+  fullName: CMD_Parser.ParserControl.AddParameter
+  nameWithType: ParserControl.AddParameter
+- uid: CMD_Parser.ParserControl.AddParameter``1(System.String)
+  name: AddParameter<T>(string)
+  href: api/CMD_Parser.ParserControl.html#CMD_Parser_ParserControl_AddParameter__1_System_String_
+  commentId: M:CMD_Parser.ParserControl.AddParameter``1(System.String)
+  name.vb: AddParameter(Of T)(String)
+  fullName: CMD_Parser.ParserControl.AddParameter<T>(string)
+  fullName.vb: CMD_Parser.ParserControl.AddParameter(Of T)(String)
+  nameWithType: ParserControl.AddParameter<T>(string)
+  nameWithType.vb: ParserControl.AddParameter(Of T)(String)
+- uid: CMD_Parser.ParserControl.GetHelp
+  name: GetHelp()
+  href: api/CMD_Parser.ParserControl.html#CMD_Parser_ParserControl_GetHelp
+  commentId: M:CMD_Parser.ParserControl.GetHelp
+  fullName: CMD_Parser.ParserControl.GetHelp()
+  nameWithType: ParserControl.GetHelp()
+- uid: CMD_Parser.ParserControl.GetHelp(System.String)
+  name: GetHelp(string)
+  href: api/CMD_Parser.ParserControl.html#CMD_Parser_ParserControl_GetHelp_System_String_
+  commentId: M:CMD_Parser.ParserControl.GetHelp(System.String)
+  name.vb: GetHelp(String)
+  fullName: CMD_Parser.ParserControl.GetHelp(string)
+  fullName.vb: CMD_Parser.ParserControl.GetHelp(String)
+  nameWithType: ParserControl.GetHelp(string)
+  nameWithType.vb: ParserControl.GetHelp(String)
+- uid: CMD_Parser.ParserControl.GetHelp*
+  name: GetHelp
+  href: api/CMD_Parser.ParserControl.html#CMD_Parser_ParserControl_GetHelp_
+  commentId: Overload:CMD_Parser.ParserControl.GetHelp
+  isSpec: "True"
+  fullName: CMD_Parser.ParserControl.GetHelp
+  nameWithType: ParserControl.GetHelp
+- uid: CMD_Parser.ParserControl.GetOptionNames
+  name: GetOptionNames()
+  href: api/CMD_Parser.ParserControl.html#CMD_Parser_ParserControl_GetOptionNames
+  commentId: M:CMD_Parser.ParserControl.GetOptionNames
+  fullName: CMD_Parser.ParserControl.GetOptionNames()
+  nameWithType: ParserControl.GetOptionNames()
+- uid: CMD_Parser.ParserControl.GetOptionNames*
+  name: GetOptionNames
+  href: api/CMD_Parser.ParserControl.html#CMD_Parser_ParserControl_GetOptionNames_
+  commentId: Overload:CMD_Parser.ParserControl.GetOptionNames
+  isSpec: "True"
+  fullName: CMD_Parser.ParserControl.GetOptionNames
+  nameWithType: ParserControl.GetOptionNames
+- uid: CMD_Parser.ParserControl.GetOptionParameterHelp(System.String)
+  name: GetOptionParameterHelp(string)
+  href: api/CMD_Parser.ParserControl.html#CMD_Parser_ParserControl_GetOptionParameterHelp_System_String_
+  commentId: M:CMD_Parser.ParserControl.GetOptionParameterHelp(System.String)
+  name.vb: GetOptionParameterHelp(String)
+  fullName: CMD_Parser.ParserControl.GetOptionParameterHelp(string)
+  fullName.vb: CMD_Parser.ParserControl.GetOptionParameterHelp(String)
+  nameWithType: ParserControl.GetOptionParameterHelp(string)
+  nameWithType.vb: ParserControl.GetOptionParameterHelp(String)
+- uid: CMD_Parser.ParserControl.GetOptionParameterHelp*
+  name: GetOptionParameterHelp
+  href: api/CMD_Parser.ParserControl.html#CMD_Parser_ParserControl_GetOptionParameterHelp_
+  commentId: Overload:CMD_Parser.ParserControl.GetOptionParameterHelp
+  isSpec: "True"
+  fullName: CMD_Parser.ParserControl.GetOptionParameterHelp
+  nameWithType: ParserControl.GetOptionParameterHelp
+- uid: CMD_Parser.ParserControl.GetUncaught
+  name: GetUncaught()
+  href: api/CMD_Parser.ParserControl.html#CMD_Parser_ParserControl_GetUncaught
+  commentId: M:CMD_Parser.ParserControl.GetUncaught
+  fullName: CMD_Parser.ParserControl.GetUncaught()
+  nameWithType: ParserControl.GetUncaught()
+- uid: CMD_Parser.ParserControl.GetUncaught*
+  name: GetUncaught
+  href: api/CMD_Parser.ParserControl.html#CMD_Parser_ParserControl_GetUncaught_
+  commentId: Overload:CMD_Parser.ParserControl.GetUncaught
+  isSpec: "True"
+  fullName: CMD_Parser.ParserControl.GetUncaught
+  nameWithType: ParserControl.GetUncaught
+- uid: CMD_Parser.ParserControl.GetValue(System.String)
+  name: GetValue(string)
+  href: api/CMD_Parser.ParserControl.html#CMD_Parser_ParserControl_GetValue_System_String_
+  commentId: M:CMD_Parser.ParserControl.GetValue(System.String)
+  name.vb: GetValue(String)
+  fullName: CMD_Parser.ParserControl.GetValue(string)
+  fullName.vb: CMD_Parser.ParserControl.GetValue(String)
+  nameWithType: ParserControl.GetValue(string)
+  nameWithType.vb: ParserControl.GetValue(String)
+- uid: CMD_Parser.ParserControl.GetValue*
+  name: GetValue
+  href: api/CMD_Parser.ParserControl.html#CMD_Parser_ParserControl_GetValue_
+  commentId: Overload:CMD_Parser.ParserControl.GetValue
+  isSpec: "True"
+  fullName: CMD_Parser.ParserControl.GetValue
+  nameWithType: ParserControl.GetValue
+- uid: CMD_Parser.ParserControl.IsSet(System.String)
+  name: IsSet(string)
+  href: api/CMD_Parser.ParserControl.html#CMD_Parser_ParserControl_IsSet_System_String_
+  commentId: M:CMD_Parser.ParserControl.IsSet(System.String)
+  name.vb: IsSet(String)
+  fullName: CMD_Parser.ParserControl.IsSet(string)
+  fullName.vb: CMD_Parser.ParserControl.IsSet(String)
+  nameWithType: ParserControl.IsSet(string)
+  nameWithType.vb: ParserControl.IsSet(String)
+- uid: CMD_Parser.ParserControl.IsSet*
+  name: IsSet
+  href: api/CMD_Parser.ParserControl.html#CMD_Parser_ParserControl_IsSet_
+  commentId: Overload:CMD_Parser.ParserControl.IsSet
+  isSpec: "True"
+  fullName: CMD_Parser.ParserControl.IsSet
+  nameWithType: ParserControl.IsSet
+- uid: CMD_Parser.ParserControl.ParseArgs(System.String[])
+  name: ParseArgs(string[])
+  href: api/CMD_Parser.ParserControl.html#CMD_Parser_ParserControl_ParseArgs_System_String___
+  commentId: M:CMD_Parser.ParserControl.ParseArgs(System.String[])
+  name.vb: ParseArgs(String())
+  fullName: CMD_Parser.ParserControl.ParseArgs(string[])
+  fullName.vb: CMD_Parser.ParserControl.ParseArgs(String())
+  nameWithType: ParserControl.ParseArgs(string[])
+  nameWithType.vb: ParserControl.ParseArgs(String())
+- uid: CMD_Parser.ParserControl.ParseArgs*
+  name: ParseArgs
+  href: api/CMD_Parser.ParserControl.html#CMD_Parser_ParserControl_ParseArgs_
+  commentId: Overload:CMD_Parser.ParserControl.ParseArgs
+  isSpec: "True"
+  fullName: CMD_Parser.ParserControl.ParseArgs
+  nameWithType: ParserControl.ParseArgs

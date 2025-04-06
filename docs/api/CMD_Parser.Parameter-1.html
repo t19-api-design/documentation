@@ -2,15 +2,15 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class EnumParameterBuilder | ArgumentAPI </title>
+      <title>Class Parameter&lt;T&gt; | Command Line Parser </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class EnumParameterBuilder | ArgumentAPI ">
+      <meta name="title" content="Class Parameter&lt;T&gt; | Command Line Parser ">
       
-      <meta name="description" content="Provides method overrides for Enum type parameters.">
+      <meta name="description" content="Generic parameter class which holds the parameter data.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
-      <meta name="docfx:navrel" content="">
+      <meta name="docfx:navrel" content="../toc.html">
       <meta name="docfx:tocrel" content="toc.html">
       
       <meta name="docfx:rel" content="../">
@@ -44,8 +44,8 @@
       <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
         <div class="container-xxl flex-nowrap">
           <a class="navbar-brand" href="../index.html">
-            <img id="logo" class="svg" src="../logo.svg" alt="ArgumentAPI">
-            ArgumentAPI
+            <img id="logo" class="svg" src="../logo.svg" alt="Command Line Parser">
+            Command Line Parser
           </a>
           <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
             <i class="bi bi-three-dots"></i>
@@ -84,36 +84,40 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="ArgumentAPI.EnumParameterBuilder">
+        <article data-uid="CMD_Parser.Parameter`1">
 
 
 
-  <h1 id="ArgumentAPI_EnumParameterBuilder" data-uid="ArgumentAPI.EnumParameterBuilder" class="text-break">
-Class EnumParameterBuilder  
+  <h1 id="CMD_Parser_Parameter_1" data-uid="CMD_Parser.Parameter`1" class="text-break">
+Class Parameter&lt;T&gt;  
   </h1>
 
   <div class="facts text-secondary">
-    <dl><dt>Namespace</dt><dd><a class="xref" href="ArgumentAPI.html">ArgumentAPI</a></dd></dl>
-  <dl><dt>Assembly</dt><dd>API Implementation.dll</dd></dl>
+    <dl><dt>Namespace</dt><dd><a class="xref" href="CMD_Parser.html">CMD_Parser</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>CMD_Parser.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>Provides method overrides for Enum type parameters.</p>
+  <div class="markdown summary"><p>Generic parameter class which holds the parameter data.</p>
 </div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class EnumParameterBuilder : ParameterBuilder</code></pre>
+    <pre><code class="lang-csharp hljs">public class Parameter&lt;T&gt;</code></pre>
   </div>
 
 
 
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
 
   <dl class="typelist inheritance">
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><a class="xref" href="ArgumentAPI.ParameterBuilder.html">ParameterBuilder</a></div>
-      <div><span class="xref">EnumParameterBuilder</span></div>
+      <div><span class="xref">Parameter&lt;T&gt;</span></div>
     </dd>
   </dl>
 
@@ -122,24 +126,6 @@ Class EnumParameterBuilder
   <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
-    <div>
-      <a class="xref" href="ArgumentAPI.ParameterBuilder.html#ArgumentAPI_ParameterBuilder_IsRequired">ParameterBuilder.IsRequired()</a>
-    </div>
-    <div>
-      <a class="xref" href="ArgumentAPI.ParameterBuilder.html#ArgumentAPI_ParameterBuilder_IsString">ParameterBuilder.IsString()</a>
-    </div>
-    <div>
-      <a class="xref" href="ArgumentAPI.ParameterBuilder.html#ArgumentAPI_ParameterBuilder_IsEnum">ParameterBuilder.IsEnum()</a>
-    </div>
-    <div>
-      <a class="xref" href="ArgumentAPI.ParameterBuilder.html#ArgumentAPI_ParameterBuilder_IsInt">ParameterBuilder.IsInt()</a>
-    </div>
-    <div>
-      <a class="xref" href="ArgumentAPI.ParameterBuilder.html#ArgumentAPI_ParameterBuilder_IsFloat">ParameterBuilder.IsFloat()</a>
-    </div>
-    <div>
-      <a class="xref" href="ArgumentAPI.ParameterBuilder.html#ArgumentAPI_ParameterBuilder_WithLambdaValidation">ParameterBuilder.WithLambdaValidation()</a>
-    </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
     </div>
@@ -172,101 +158,25 @@ Class EnumParameterBuilder
 </h2>
 
 
-  <a id="ArgumentAPI_EnumParameterBuilder_GetParameter_" data-uid="ArgumentAPI.EnumParameterBuilder.GetParameter*"></a>
+  <a id="CMD_Parser_Parameter_1_Value_" data-uid="CMD_Parser.Parameter`1.Value*"></a>
 
-  <h3 id="ArgumentAPI_EnumParameterBuilder_GetParameter" data-uid="ArgumentAPI.EnumParameterBuilder.GetParameter">
-  GetParameter()
+  <h3 id="CMD_Parser_Parameter_1_Value" data-uid="CMD_Parser.Parameter`1.Value">
+  Value()
   
   </h3>
 
-  <div class="markdown level1 summary"><p>Returns the built EnumParameter object.</p>
+  <div class="markdown level1 summary"><p>Parameter value getter.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override EnumParameter GetParameter()</code></pre>
+    <pre><code class="lang-csharp hljs">public T Value()</code></pre>
   </div>
 
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="ArgumentAPI.EnumParameter.html">EnumParameter</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-  <a id="ArgumentAPI_EnumParameterBuilder_WithDefaultValue_" data-uid="ArgumentAPI.EnumParameterBuilder.WithDefaultValue*"></a>
-
-  <h3 id="ArgumentAPI_EnumParameterBuilder_WithDefaultValue_System_String_" data-uid="ArgumentAPI.EnumParameterBuilder.WithDefaultValue(System.String)">
-  WithDefaultValue(string)
-  
-  </h3>
-
-  <div class="markdown level1 summary"><p>Sets the default value for the Enum parameter.
-A warning is thrown if the given string is not
-within the defined Enum values.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public EnumParameterBuilder WithDefaultValue(string value)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
-  </dl>
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="ArgumentAPI.EnumParameterBuilder.html">EnumParameterBuilder</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-  <a id="ArgumentAPI_EnumParameterBuilder_WithEnumOption_" data-uid="ArgumentAPI.EnumParameterBuilder.WithEnumOption*"></a>
-
-  <h3 id="ArgumentAPI_EnumParameterBuilder_WithEnumOption_System_String_" data-uid="ArgumentAPI.EnumParameterBuilder.WithEnumOption(System.String)">
-  WithEnumOption(string)
-  
-  </h3>
-
-  <div class="markdown level1 summary"><p>Adds an Enum value to the accepted values.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public EnumParameterBuilder WithEnumOption(string option)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>option</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
-  </dl>
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="ArgumentAPI.EnumParameterBuilder.html">EnumParameterBuilder</a></dt>
+    <dt><span class="xref">T</span></dt>
     <dd></dd>
   </dl>
 

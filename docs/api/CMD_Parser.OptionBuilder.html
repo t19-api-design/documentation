@@ -2,15 +2,15 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class OptionBuilder | ArgumentAPI </title>
+      <title>Class OptionBuilder | Command Line Parser </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class OptionBuilder | ArgumentAPI ">
+      <meta name="title" content="Class OptionBuilder | Command Line Parser ">
       
       <meta name="description" content="Builder pattern class; used to provide a fluid option defining experience to the user, while not exposing them to the Option objects.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
-      <meta name="docfx:navrel" content="">
+      <meta name="docfx:navrel" content="../toc.html">
       <meta name="docfx:tocrel" content="toc.html">
       
       <meta name="docfx:rel" content="../">
@@ -44,8 +44,8 @@
       <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
         <div class="container-xxl flex-nowrap">
           <a class="navbar-brand" href="../index.html">
-            <img id="logo" class="svg" src="../logo.svg" alt="ArgumentAPI">
-            ArgumentAPI
+            <img id="logo" class="svg" src="../logo.svg" alt="Command Line Parser">
+            Command Line Parser
           </a>
           <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
             <i class="bi bi-three-dots"></i>
@@ -84,17 +84,17 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="ArgumentAPI.OptionBuilder">
+        <article data-uid="CMD_Parser.OptionBuilder">
 
 
 
-  <h1 id="ArgumentAPI_OptionBuilder" data-uid="ArgumentAPI.OptionBuilder" class="text-break">
+  <h1 id="CMD_Parser_OptionBuilder" data-uid="CMD_Parser.OptionBuilder" class="text-break">
 Class OptionBuilder  
   </h1>
 
   <div class="facts text-secondary">
-    <dl><dt>Namespace</dt><dd><a class="xref" href="ArgumentAPI.html">ArgumentAPI</a></dd></dl>
-  <dl><dt>Assembly</dt><dd>API Implementation.dll</dd></dl>
+    <dl><dt>Namespace</dt><dd><a class="xref" href="CMD_Parser.html">CMD_Parser</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>CMD_Parser.dll</dd></dl>
   </div>
 
   <div class="markdown summary"><p>Builder pattern class; used to provide a fluid option defining experience to
@@ -150,67 +150,31 @@ the user, while not exposing them to the Option objects.</p>
 
 
 
-  <h2 class="section" id="constructors">Constructors
-</h2>
-
-
-  <a id="ArgumentAPI_OptionBuilder__ctor_" data-uid="ArgumentAPI.OptionBuilder.#ctor*"></a>
-
-  <h3 id="ArgumentAPI_OptionBuilder__ctor_System_String_" data-uid="ArgumentAPI.OptionBuilder.#ctor(System.String)">
-  OptionBuilder(string)
-  
-  </h3>
-
-  <div class="markdown level1 summary"><p>Parametrized constructor, takes the name of the option.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public OptionBuilder(string name)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>The name of the option.</p>
-</dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-
   <h2 class="section" id="methods">Methods
 </h2>
 
 
-  <a id="ArgumentAPI_OptionBuilder_IsLong_" data-uid="ArgumentAPI.OptionBuilder.IsLong*"></a>
+  <a id="CMD_Parser_OptionBuilder_AsLongOption_" data-uid="CMD_Parser.OptionBuilder.AsLongOption*"></a>
 
-  <h3 id="ArgumentAPI_OptionBuilder_IsLong" data-uid="ArgumentAPI.OptionBuilder.IsLong">
-  IsLong()
+  <h3 id="CMD_Parser_OptionBuilder_AsLongOption" data-uid="CMD_Parser.OptionBuilder.AsLongOption">
+  AsLongOption()
   
   </h3>
 
-  <div class="markdown level1 summary"><p>Sets the option as a long option. Throws an error if the name is already taken.
-The option will also not be accepted without this, or the IsShort method.</p>
+  <div class="markdown level1 summary"><p>Sets the option as a long option. Throws a BadName exception if the name is already taken.
+The option will also not be accepted without this, or the AsShortOption method, an AmbiguousOption
+exception will be thrown.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public OptionBuilder IsLong()</code></pre>
+    <pre><code class="lang-csharp hljs">public OptionBuilder AsLongOption()</code></pre>
   </div>
 
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="ArgumentAPI.OptionBuilder.html">OptionBuilder</a></dt>
+    <dt><a class="xref" href="CMD_Parser.OptionBuilder.html">OptionBuilder</a></dt>
     <dd></dd>
   </dl>
 
@@ -224,26 +188,26 @@ The option will also not be accepted without this, or the IsShort method.</p>
 
 
 
-  <a id="ArgumentAPI_OptionBuilder_IsRequired_" data-uid="ArgumentAPI.OptionBuilder.IsRequired*"></a>
+  <a id="CMD_Parser_OptionBuilder_AsRequired_" data-uid="CMD_Parser.OptionBuilder.AsRequired*"></a>
 
-  <h3 id="ArgumentAPI_OptionBuilder_IsRequired" data-uid="ArgumentAPI.OptionBuilder.IsRequired">
-  IsRequired()
+  <h3 id="CMD_Parser_OptionBuilder_AsRequired" data-uid="CMD_Parser.OptionBuilder.AsRequired">
+  AsRequired()
   
   </h3>
 
-  <div class="markdown level1 summary"><p>Sets the option as required, so if it is not set when the program runs, the user will be
-issued a warning.</p>
+  <div class="markdown level1 summary"><p>Sets the option as required. If it is not set when the program runs, an UnsetOption
+exception will be thrown.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public OptionBuilder IsRequired()</code></pre>
+    <pre><code class="lang-csharp hljs">public OptionBuilder AsRequired()</code></pre>
   </div>
 
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="ArgumentAPI.OptionBuilder.html">OptionBuilder</a></dt>
+    <dt><a class="xref" href="CMD_Parser.OptionBuilder.html">OptionBuilder</a></dt>
     <dd></dd>
   </dl>
 
@@ -257,27 +221,27 @@ issued a warning.</p>
 
 
 
-  <a id="ArgumentAPI_OptionBuilder_IsShort_" data-uid="ArgumentAPI.OptionBuilder.IsShort*"></a>
+  <a id="CMD_Parser_OptionBuilder_AsShortOption_" data-uid="CMD_Parser.OptionBuilder.AsShortOption*"></a>
 
-  <h3 id="ArgumentAPI_OptionBuilder_IsShort" data-uid="ArgumentAPI.OptionBuilder.IsShort">
-  IsShort()
+  <h3 id="CMD_Parser_OptionBuilder_AsShortOption" data-uid="CMD_Parser.OptionBuilder.AsShortOption">
+  AsShortOption()
   
   </h3>
 
-  <div class="markdown level1 summary"><p>Sets the option as a short option. Throws an error if the name is not 1 character long,
+  <div class="markdown level1 summary"><p>Sets the option as a short option. Throws a BadName exception if the name is not 1 character long,
 or if the name is already taken. The option will also not be accepted without this, or
-the IsLong method.</p>
+the AsLongOption method, an AmbiguousOption exception will be thrown.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public OptionBuilder IsShort()</code></pre>
+    <pre><code class="lang-csharp hljs">public OptionBuilder AsShortOption()</code></pre>
   </div>
 
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="ArgumentAPI.OptionBuilder.html">OptionBuilder</a></dt>
+    <dt><a class="xref" href="CMD_Parser.OptionBuilder.html">OptionBuilder</a></dt>
     <dd></dd>
   </dl>
 
@@ -291,70 +255,58 @@ the IsLong method.</p>
 
 
 
-  <a id="ArgumentAPI_OptionBuilder_SetOption_" data-uid="ArgumentAPI.OptionBuilder.SetOption*"></a>
+  <a id="CMD_Parser_OptionBuilder_SetOption_" data-uid="CMD_Parser.OptionBuilder.SetOption*"></a>
 
-  <h3 id="ArgumentAPI_OptionBuilder_SetOption_ArgumentAPI_APIControlUnit_" data-uid="ArgumentAPI.OptionBuilder.SetOption(ArgumentAPI.APIControlUnit)">
-  SetOption(APIControlUnit)
+  <h3 id="CMD_Parser_OptionBuilder_SetOption" data-uid="CMD_Parser.OptionBuilder.SetOption">
+  SetOption()
   
   </h3>
 
-  <div class="markdown level1 summary"><p>Sets the option up in the APIControlUnit object, so it is ready for argument parsing.</p>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetOption()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CMD_Parser_OptionBuilder_WithAlias_" data-uid="CMD_Parser.OptionBuilder.WithAlias*"></a>
+
+  <h3 id="CMD_Parser_OptionBuilder_WithAlias_System_String___" data-uid="CMD_Parser.OptionBuilder.WithAlias(System.String[])">
+  WithAlias(params string[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Allows the user to set an alias for the option. A BadName exception is thrown if the name is already
+taken. It can take numerous aliases.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public OptionBuilder SetOption(APIControlUnit control)</code></pre>
+    <pre><code class="lang-csharp hljs">public OptionBuilder WithAlias(params string[] alias)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>control</code> <a class="xref" href="ArgumentAPI.APIControlUnit.html">APIControlUnit</a></dt>
-    <dd><p>The APIControlUnit object to set the option in.</p>
-</dd>
-  </dl>
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="ArgumentAPI.OptionBuilder.html">OptionBuilder</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-  <a id="ArgumentAPI_OptionBuilder_WithAlias_" data-uid="ArgumentAPI.OptionBuilder.WithAlias*"></a>
-
-  <h3 id="ArgumentAPI_OptionBuilder_WithAlias_System_String_" data-uid="ArgumentAPI.OptionBuilder.WithAlias(System.String)">
-  WithAlias(string)
-  
-  </h3>
-
-  <div class="markdown level1 summary"><p>Allows the user to set an alias for the option. An error is thrown if the name is already
-taken.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public OptionBuilder WithAlias(string alias)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>alias</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>alias</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</dt>
     <dd><p>The alias for the option.</p>
 </dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="ArgumentAPI.OptionBuilder.html">OptionBuilder</a></dt>
+    <dt><a class="xref" href="CMD_Parser.OptionBuilder.html">OptionBuilder</a></dt>
     <dd></dd>
   </dl>
 
@@ -368,9 +320,51 @@ taken.</p>
 
 
 
-  <a id="ArgumentAPI_OptionBuilder_WithHelp_" data-uid="ArgumentAPI.OptionBuilder.WithHelp*"></a>
+  <a id="CMD_Parser_OptionBuilder_WithGroup_" data-uid="CMD_Parser.OptionBuilder.WithGroup*"></a>
 
-  <h3 id="ArgumentAPI_OptionBuilder_WithHelp_System_String_" data-uid="ArgumentAPI.OptionBuilder.WithHelp(System.String)">
+  <h3 id="CMD_Parser_OptionBuilder_WithGroup_System_Int32___" data-uid="CMD_Parser.OptionBuilder.WithGroup(System.Int32[])">
+  WithGroup(params int[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Allows the user to set a group for the option. The group is defined by its number (integer).
+Options within different groups can not appear together on the command line.
+If an option doesn't have a group set, it can be used with everything. Options can have multiple groups.
+This will be displayed in the help and a ForbiddenCombination exception will be thrown if different groups
+appear together on the command line.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public OptionBuilder WithGroup(params int[] groupNum)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>groupNum</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>[]</dt>
+    <dd><p>The group numbers for the option.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CMD_Parser.OptionBuilder.html">OptionBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CMD_Parser_OptionBuilder_WithHelp_" data-uid="CMD_Parser.OptionBuilder.WithHelp*"></a>
+
+  <h3 id="CMD_Parser_OptionBuilder_WithHelp_System_String_" data-uid="CMD_Parser.OptionBuilder.WithHelp(System.String)">
   WithHelp(string)
   
   </h3>
@@ -392,7 +386,7 @@ taken.</p>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="ArgumentAPI.OptionBuilder.html">OptionBuilder</a></dt>
+    <dt><a class="xref" href="CMD_Parser.OptionBuilder.html">OptionBuilder</a></dt>
     <dd></dd>
   </dl>
 
@@ -406,17 +400,17 @@ taken.</p>
 
 
 
-  <a id="ArgumentAPI_OptionBuilder_WithPair_" data-uid="ArgumentAPI.OptionBuilder.WithPair*"></a>
+  <a id="CMD_Parser_OptionBuilder_WithPair_" data-uid="CMD_Parser.OptionBuilder.WithPair*"></a>
 
-  <h3 id="ArgumentAPI_OptionBuilder_WithPair_System_String_" data-uid="ArgumentAPI.OptionBuilder.WithPair(System.String)">
+  <h3 id="CMD_Parser_OptionBuilder_WithPair_System_String_" data-uid="CMD_Parser.OptionBuilder.WithPair(System.String)">
   WithPair(string)
   
   </h3>
 
   <div class="markdown level1 summary"><p>Allows the user to set a paired name for the option. If it is a long option, the pair must
-be a short option, and vice versa. An error will be thrown if the name is already taken,
-the name doesn't conform to the type of option it should be, or the method is used before
-the IsShort or IsLong methods.</p>
+be a short option, and vice versa. A BadName exception will be thrown if the name is already taken,
+if the name does not conform to the type of option it should be, or if the method is used before
+the IsShort or IsLong methods once the option is set.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -433,7 +427,7 @@ the IsShort or IsLong methods.</p>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="ArgumentAPI.OptionBuilder.html">OptionBuilder</a></dt>
+    <dt><a class="xref" href="CMD_Parser.OptionBuilder.html">OptionBuilder</a></dt>
     <dd></dd>
   </dl>
 
@@ -447,34 +441,39 @@ the IsShort or IsLong methods.</p>
 
 
 
-  <a id="ArgumentAPI_OptionBuilder_WithParameter_" data-uid="ArgumentAPI.OptionBuilder.WithParameter*"></a>
+  <a id="CMD_Parser_OptionBuilder_WithParameter_" data-uid="CMD_Parser.OptionBuilder.WithParameter*"></a>
 
-  <h3 id="ArgumentAPI_OptionBuilder_WithParameter_ArgumentAPI_Parameter_" data-uid="ArgumentAPI.OptionBuilder.WithParameter(ArgumentAPI.Parameter)">
-  WithParameter(Parameter)
+  <h3 id="CMD_Parser_OptionBuilder_WithParameter__1_CMD_Parser_Parameter___0__" data-uid="CMD_Parser.OptionBuilder.WithParameter``1(CMD_Parser.Parameter{``0})">
+  WithParameter&lt;T&gt;(Parameter&lt;T&gt;)
   
   </h3>
 
-  <div class="markdown level1 summary"><p>Allows the user to set a parameter for the option in the form of a built Parameter object.</p>
+  <div class="markdown level1 summary"><p>Allows the user to set only one parameter for the option in the form of a built Parameter object.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public OptionBuilder WithParameter(Parameter parameter)</code></pre>
+    <pre><code class="lang-csharp hljs">public OptionBuilder WithParameter&lt;T&gt;(Parameter&lt;T&gt; parameter)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>parameter</code> <a class="xref" href="ArgumentAPI.Parameter.html">Parameter</a></dt>
+    <dt><code>parameter</code> <a class="xref" href="CMD_Parser.Parameter-1.html">Parameter</a>&lt;T&gt;</dt>
     <dd><p>The parameter for the option.</p>
 </dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="ArgumentAPI.OptionBuilder.html">OptionBuilder</a></dt>
+    <dt><a class="xref" href="CMD_Parser.OptionBuilder.html">OptionBuilder</a></dt>
     <dd></dd>
   </dl>
 
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
 
 
 
