@@ -154,40 +154,6 @@ the user, while not exposing them to the Option objects.</p>
 </h2>
 
 
-  <a id="CMD_Parser_OptionBuilder_AsLongOption_" data-uid="CMD_Parser.OptionBuilder.AsLongOption*"></a>
-
-  <h3 id="CMD_Parser_OptionBuilder_AsLongOption" data-uid="CMD_Parser.OptionBuilder.AsLongOption">
-  AsLongOption()
-  
-  </h3>
-
-  <div class="markdown level1 summary"><p>Sets the option as a long option. Throws a BadName exception if the name is already taken.
-The option will also not be accepted without this, or the AsShortOption method, an AmbiguousOption
-exception will be thrown.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public OptionBuilder AsLongOption()</code></pre>
-  </div>
-
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="CMD_Parser.OptionBuilder.html">OptionBuilder</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
   <a id="CMD_Parser_OptionBuilder_AsRequired_" data-uid="CMD_Parser.OptionBuilder.AsRequired*"></a>
 
   <h3 id="CMD_Parser_OptionBuilder_AsRequired" data-uid="CMD_Parser.OptionBuilder.AsRequired">
@@ -195,47 +161,13 @@ exception will be thrown.</p>
   
   </h3>
 
-  <div class="markdown level1 summary"><p>Sets the option as required. If it is not set when the program runs, an UnsetOption
-exception will be thrown.</p>
+  <div class="markdown level1 summary"><p>Sets the option as required. If it is not set when the program runs,
+an UnsetOptionException will be thrown.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public OptionBuilder AsRequired()</code></pre>
-  </div>
-
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="CMD_Parser.OptionBuilder.html">OptionBuilder</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-  <a id="CMD_Parser_OptionBuilder_AsShortOption_" data-uid="CMD_Parser.OptionBuilder.AsShortOption*"></a>
-
-  <h3 id="CMD_Parser_OptionBuilder_AsShortOption" data-uid="CMD_Parser.OptionBuilder.AsShortOption">
-  AsShortOption()
-  
-  </h3>
-
-  <div class="markdown level1 summary"><p>Sets the option as a short option. Throws a BadName exception if the name is not 1 character long,
-or if the name is already taken. The option will also not be accepted without this, or
-the AsLongOption method, an AmbiguousOption exception will be thrown.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public OptionBuilder AsShortOption()</code></pre>
   </div>
 
 
@@ -262,7 +194,8 @@ the AsLongOption method, an AmbiguousOption exception will be thrown.</p>
   
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Finalizing build method, must be called at the end of setting the option for the option to be valid.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -288,7 +221,7 @@ the AsLongOption method, an AmbiguousOption exception will be thrown.</p>
   
   </h3>
 
-  <div class="markdown level1 summary"><p>Allows the user to set an alias for the option. A BadName exception is thrown if the name is already
+  <div class="markdown level1 summary"><p>Allows the user to set an alias for the option. BuildingException is thrown if the name is already
 taken. It can take numerous aliases.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -330,7 +263,7 @@ taken. It can take numerous aliases.</p>
   <div class="markdown level1 summary"><p>Allows the user to set a group for the option. The group is defined by its number (integer).
 Options within different groups can not appear together on the command line.
 If an option doesn't have a group set, it can be used with everything. Options can have multiple groups.
-This will be displayed in the help and a ForbiddenCombination exception will be thrown if different groups
+This will be displayed in the help and a ForbiddenCombinationException will be thrown if different groups
 appear together on the command line.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -408,9 +341,8 @@ appear together on the command line.</p>
   </h3>
 
   <div class="markdown level1 summary"><p>Allows the user to set a paired name for the option. If it is a long option, the pair must
-be a short option, and vice versa. A BadName exception will be thrown if the name is already taken,
-if the name does not conform to the type of option it should be, or if the method is used before
-the IsShort or IsLong methods once the option is set.</p>
+be a short option, and vice versa. BuildingException will be thrown if the name is already taken
+or if the name does not conform to the type of option.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 

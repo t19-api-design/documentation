@@ -7,6 +7,108 @@ references:
   commentId: N:CMD_Parser
   fullName: CMD_Parser
   nameWithType: CMD_Parser
+- uid: CMD_Parser.BuildingException
+  name: BuildingException
+  href: api/CMD_Parser.BuildingException.html
+  commentId: T:CMD_Parser.BuildingException
+  fullName: CMD_Parser.BuildingException
+  nameWithType: BuildingException
+- uid: CMD_Parser.BuildingException.#ctor(System.String)
+  name: BuildingException(string?)
+  href: api/CMD_Parser.BuildingException.html#CMD_Parser_BuildingException__ctor_System_String_
+  commentId: M:CMD_Parser.BuildingException.#ctor(System.String)
+  name.vb: New(String)
+  fullName: CMD_Parser.BuildingException.BuildingException(string?)
+  fullName.vb: CMD_Parser.BuildingException.New(String)
+  nameWithType: BuildingException.BuildingException(string?)
+  nameWithType.vb: BuildingException.New(String)
+- uid: CMD_Parser.BuildingException.#ctor(System.String,System.Exception)
+  name: BuildingException(string, Exception)
+  href: api/CMD_Parser.BuildingException.html#CMD_Parser_BuildingException__ctor_System_String_System_Exception_
+  commentId: M:CMD_Parser.BuildingException.#ctor(System.String,System.Exception)
+  name.vb: New(String, Exception)
+  fullName: CMD_Parser.BuildingException.BuildingException(string, System.Exception)
+  fullName.vb: CMD_Parser.BuildingException.New(String, System.Exception)
+  nameWithType: BuildingException.BuildingException(string, Exception)
+  nameWithType.vb: BuildingException.New(String, Exception)
+- uid: CMD_Parser.BuildingException.#ctor*
+  name: BuildingException
+  href: api/CMD_Parser.BuildingException.html#CMD_Parser_BuildingException__ctor_
+  commentId: Overload:CMD_Parser.BuildingException.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: CMD_Parser.BuildingException.BuildingException
+  fullName.vb: CMD_Parser.BuildingException.New
+  nameWithType: BuildingException.BuildingException
+  nameWithType.vb: BuildingException.New
+- uid: CMD_Parser.CmdParserException
+  name: CmdParserException
+  href: api/CMD_Parser.CmdParserException.html
+  commentId: T:CMD_Parser.CmdParserException
+  fullName: CMD_Parser.CmdParserException
+  nameWithType: CmdParserException
+- uid: CMD_Parser.CmdParserException.#ctor
+  name: CmdParserException()
+  href: api/CMD_Parser.CmdParserException.html#CMD_Parser_CmdParserException__ctor
+  commentId: M:CMD_Parser.CmdParserException.#ctor
+  name.vb: New()
+  fullName: CMD_Parser.CmdParserException.CmdParserException()
+  fullName.vb: CMD_Parser.CmdParserException.New()
+  nameWithType: CmdParserException.CmdParserException()
+  nameWithType.vb: CmdParserException.New()
+- uid: CMD_Parser.CmdParserException.#ctor(System.String)
+  name: CmdParserException(string?)
+  href: api/CMD_Parser.CmdParserException.html#CMD_Parser_CmdParserException__ctor_System_String_
+  commentId: M:CMD_Parser.CmdParserException.#ctor(System.String)
+  name.vb: New(String)
+  fullName: CMD_Parser.CmdParserException.CmdParserException(string?)
+  fullName.vb: CMD_Parser.CmdParserException.New(String)
+  nameWithType: CmdParserException.CmdParserException(string?)
+  nameWithType.vb: CmdParserException.New(String)
+- uid: CMD_Parser.CmdParserException.#ctor(System.String,System.Exception)
+  name: CmdParserException(string, Exception)
+  href: api/CMD_Parser.CmdParserException.html#CMD_Parser_CmdParserException__ctor_System_String_System_Exception_
+  commentId: M:CMD_Parser.CmdParserException.#ctor(System.String,System.Exception)
+  name.vb: New(String, Exception)
+  fullName: CMD_Parser.CmdParserException.CmdParserException(string, System.Exception)
+  fullName.vb: CMD_Parser.CmdParserException.New(String, System.Exception)
+  nameWithType: CmdParserException.CmdParserException(string, Exception)
+  nameWithType.vb: CmdParserException.New(String, Exception)
+- uid: CMD_Parser.CmdParserException.#ctor*
+  name: CmdParserException
+  href: api/CMD_Parser.CmdParserException.html#CMD_Parser_CmdParserException__ctor_
+  commentId: Overload:CMD_Parser.CmdParserException.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: CMD_Parser.CmdParserException.CmdParserException
+  fullName.vb: CMD_Parser.CmdParserException.New
+  nameWithType: CmdParserException.CmdParserException
+  nameWithType.vb: CmdParserException.New
+- uid: CMD_Parser.ForbiddenCombinationException
+  name: ForbiddenCombinationException
+  href: api/CMD_Parser.ForbiddenCombinationException.html
+  commentId: T:CMD_Parser.ForbiddenCombinationException
+  fullName: CMD_Parser.ForbiddenCombinationException
+  nameWithType: ForbiddenCombinationException
+- uid: CMD_Parser.ForbiddenCombinationException.#ctor(System.String)
+  name: ForbiddenCombinationException(string?)
+  href: api/CMD_Parser.ForbiddenCombinationException.html#CMD_Parser_ForbiddenCombinationException__ctor_System_String_
+  commentId: M:CMD_Parser.ForbiddenCombinationException.#ctor(System.String)
+  name.vb: New(String)
+  fullName: CMD_Parser.ForbiddenCombinationException.ForbiddenCombinationException(string?)
+  fullName.vb: CMD_Parser.ForbiddenCombinationException.New(String)
+  nameWithType: ForbiddenCombinationException.ForbiddenCombinationException(string?)
+  nameWithType.vb: ForbiddenCombinationException.New(String)
+- uid: CMD_Parser.ForbiddenCombinationException.#ctor*
+  name: ForbiddenCombinationException
+  href: api/CMD_Parser.ForbiddenCombinationException.html#CMD_Parser_ForbiddenCombinationException__ctor_
+  commentId: Overload:CMD_Parser.ForbiddenCombinationException.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: CMD_Parser.ForbiddenCombinationException.ForbiddenCombinationException
+  fullName.vb: CMD_Parser.ForbiddenCombinationException.New
+  nameWithType: ForbiddenCombinationException.ForbiddenCombinationException
+  nameWithType.vb: ForbiddenCombinationException.New
 - uid: CMD_Parser.Option
   name: Option
   href: api/CMD_Parser.Option.html
@@ -38,19 +140,6 @@ references:
   commentId: T:CMD_Parser.OptionBuilder
   fullName: CMD_Parser.OptionBuilder
   nameWithType: OptionBuilder
-- uid: CMD_Parser.OptionBuilder.AsLongOption
-  name: AsLongOption()
-  href: api/CMD_Parser.OptionBuilder.html#CMD_Parser_OptionBuilder_AsLongOption
-  commentId: M:CMD_Parser.OptionBuilder.AsLongOption
-  fullName: CMD_Parser.OptionBuilder.AsLongOption()
-  nameWithType: OptionBuilder.AsLongOption()
-- uid: CMD_Parser.OptionBuilder.AsLongOption*
-  name: AsLongOption
-  href: api/CMD_Parser.OptionBuilder.html#CMD_Parser_OptionBuilder_AsLongOption_
-  commentId: Overload:CMD_Parser.OptionBuilder.AsLongOption
-  isSpec: "True"
-  fullName: CMD_Parser.OptionBuilder.AsLongOption
-  nameWithType: OptionBuilder.AsLongOption
 - uid: CMD_Parser.OptionBuilder.AsRequired
   name: AsRequired()
   href: api/CMD_Parser.OptionBuilder.html#CMD_Parser_OptionBuilder_AsRequired
@@ -64,19 +153,6 @@ references:
   isSpec: "True"
   fullName: CMD_Parser.OptionBuilder.AsRequired
   nameWithType: OptionBuilder.AsRequired
-- uid: CMD_Parser.OptionBuilder.AsShortOption
-  name: AsShortOption()
-  href: api/CMD_Parser.OptionBuilder.html#CMD_Parser_OptionBuilder_AsShortOption
-  commentId: M:CMD_Parser.OptionBuilder.AsShortOption
-  fullName: CMD_Parser.OptionBuilder.AsShortOption()
-  nameWithType: OptionBuilder.AsShortOption()
-- uid: CMD_Parser.OptionBuilder.AsShortOption*
-  name: AsShortOption
-  href: api/CMD_Parser.OptionBuilder.html#CMD_Parser_OptionBuilder_AsShortOption_
-  commentId: Overload:CMD_Parser.OptionBuilder.AsShortOption
-  isSpec: "True"
-  fullName: CMD_Parser.OptionBuilder.AsShortOption
-  nameWithType: OptionBuilder.AsShortOption
 - uid: CMD_Parser.OptionBuilder.SetOption
   name: SetOption()
   href: api/CMD_Parser.OptionBuilder.html#CMD_Parser_OptionBuilder_SetOption
@@ -302,6 +378,108 @@ references:
   fullName.vb: CMD_Parser.ParameterBuilder(Of T).WithLambdaValidation
   nameWithType: ParameterBuilder<T>.WithLambdaValidation
   nameWithType.vb: ParameterBuilder(Of T).WithLambdaValidation
+- uid: CMD_Parser.ParameterBuilder`1.WithParser(System.Func{System.String,`0})
+  name: WithParser(Func<string, T>)
+  href: api/CMD_Parser.ParameterBuilder-1.html#CMD_Parser_ParameterBuilder_1_WithParser_System_Func_System_String__0__
+  commentId: M:CMD_Parser.ParameterBuilder`1.WithParser(System.Func{System.String,`0})
+  name.vb: WithParser(Func(Of String, T))
+  fullName: CMD_Parser.ParameterBuilder<T>.WithParser(System.Func<string, T>)
+  fullName.vb: CMD_Parser.ParameterBuilder(Of T).WithParser(System.Func(Of String, T))
+  nameWithType: ParameterBuilder<T>.WithParser(Func<string, T>)
+  nameWithType.vb: ParameterBuilder(Of T).WithParser(Func(Of String, T))
+- uid: CMD_Parser.ParameterBuilder`1.WithParser*
+  name: WithParser
+  href: api/CMD_Parser.ParameterBuilder-1.html#CMD_Parser_ParameterBuilder_1_WithParser_
+  commentId: Overload:CMD_Parser.ParameterBuilder`1.WithParser
+  isSpec: "True"
+  fullName: CMD_Parser.ParameterBuilder<T>.WithParser
+  fullName.vb: CMD_Parser.ParameterBuilder(Of T).WithParser
+  nameWithType: ParameterBuilder<T>.WithParser
+  nameWithType.vb: ParameterBuilder(Of T).WithParser
+- uid: CMD_Parser.ParameterWrapper
+  name: ParameterWrapper
+  href: api/CMD_Parser.ParameterWrapper.html
+  commentId: T:CMD_Parser.ParameterWrapper
+  fullName: CMD_Parser.ParameterWrapper
+  nameWithType: ParameterWrapper
+- uid: CMD_Parser.ParameterWrapper.GetType
+  name: GetType()
+  href: api/CMD_Parser.ParameterWrapper.html#CMD_Parser_ParameterWrapper_GetType
+  commentId: M:CMD_Parser.ParameterWrapper.GetType
+  fullName: CMD_Parser.ParameterWrapper.GetType()
+  nameWithType: ParameterWrapper.GetType()
+- uid: CMD_Parser.ParameterWrapper.GetType*
+  name: GetType
+  href: api/CMD_Parser.ParameterWrapper.html#CMD_Parser_ParameterWrapper_GetType_
+  commentId: Overload:CMD_Parser.ParameterWrapper.GetType
+  isSpec: "True"
+  fullName: CMD_Parser.ParameterWrapper.GetType
+  nameWithType: ParameterWrapper.GetType
+- uid: CMD_Parser.ParameterWrapper.GetValue
+  name: GetValue()
+  href: api/CMD_Parser.ParameterWrapper.html#CMD_Parser_ParameterWrapper_GetValue
+  commentId: M:CMD_Parser.ParameterWrapper.GetValue
+  fullName: CMD_Parser.ParameterWrapper.GetValue()
+  nameWithType: ParameterWrapper.GetValue()
+- uid: CMD_Parser.ParameterWrapper.GetValue*
+  name: GetValue
+  href: api/CMD_Parser.ParameterWrapper.html#CMD_Parser_ParameterWrapper_GetValue_
+  commentId: Overload:CMD_Parser.ParameterWrapper.GetValue
+  isSpec: "True"
+  fullName: CMD_Parser.ParameterWrapper.GetValue
+  nameWithType: ParameterWrapper.GetValue
+- uid: CMD_Parser.ParameterWrapper.HasDefault
+  name: HasDefault
+  href: api/CMD_Parser.ParameterWrapper.html#CMD_Parser_ParameterWrapper_HasDefault
+  commentId: P:CMD_Parser.ParameterWrapper.HasDefault
+  fullName: CMD_Parser.ParameterWrapper.HasDefault
+  nameWithType: ParameterWrapper.HasDefault
+- uid: CMD_Parser.ParameterWrapper.HasDefault*
+  name: HasDefault
+  href: api/CMD_Parser.ParameterWrapper.html#CMD_Parser_ParameterWrapper_HasDefault_
+  commentId: Overload:CMD_Parser.ParameterWrapper.HasDefault
+  isSpec: "True"
+  fullName: CMD_Parser.ParameterWrapper.HasDefault
+  nameWithType: ParameterWrapper.HasDefault
+- uid: CMD_Parser.ParameterWrapper.Help
+  name: Help
+  href: api/CMD_Parser.ParameterWrapper.html#CMD_Parser_ParameterWrapper_Help
+  commentId: P:CMD_Parser.ParameterWrapper.Help
+  fullName: CMD_Parser.ParameterWrapper.Help
+  nameWithType: ParameterWrapper.Help
+- uid: CMD_Parser.ParameterWrapper.Help*
+  name: Help
+  href: api/CMD_Parser.ParameterWrapper.html#CMD_Parser_ParameterWrapper_Help_
+  commentId: Overload:CMD_Parser.ParameterWrapper.Help
+  isSpec: "True"
+  fullName: CMD_Parser.ParameterWrapper.Help
+  nameWithType: ParameterWrapper.Help
+- uid: CMD_Parser.ParameterWrapper.IsRequired
+  name: IsRequired
+  href: api/CMD_Parser.ParameterWrapper.html#CMD_Parser_ParameterWrapper_IsRequired
+  commentId: P:CMD_Parser.ParameterWrapper.IsRequired
+  fullName: CMD_Parser.ParameterWrapper.IsRequired
+  nameWithType: ParameterWrapper.IsRequired
+- uid: CMD_Parser.ParameterWrapper.IsRequired*
+  name: IsRequired
+  href: api/CMD_Parser.ParameterWrapper.html#CMD_Parser_ParameterWrapper_IsRequired_
+  commentId: Overload:CMD_Parser.ParameterWrapper.IsRequired
+  isSpec: "True"
+  fullName: CMD_Parser.ParameterWrapper.IsRequired
+  nameWithType: ParameterWrapper.IsRequired
+- uid: CMD_Parser.ParameterWrapper.Name
+  name: Name
+  href: api/CMD_Parser.ParameterWrapper.html#CMD_Parser_ParameterWrapper_Name
+  commentId: P:CMD_Parser.ParameterWrapper.Name
+  fullName: CMD_Parser.ParameterWrapper.Name
+  nameWithType: ParameterWrapper.Name
+- uid: CMD_Parser.ParameterWrapper.Name*
+  name: Name
+  href: api/CMD_Parser.ParameterWrapper.html#CMD_Parser_ParameterWrapper_Name_
+  commentId: Overload:CMD_Parser.ParameterWrapper.Name
+  isSpec: "True"
+  fullName: CMD_Parser.ParameterWrapper.Name
+  nameWithType: ParameterWrapper.Name
 - uid: CMD_Parser.Parameter`1
   name: Parameter<T>
   href: api/CMD_Parser.Parameter-1.html
@@ -311,6 +489,40 @@ references:
   fullName.vb: CMD_Parser.Parameter(Of T)
   nameWithType: Parameter<T>
   nameWithType.vb: Parameter(Of T)
+- uid: CMD_Parser.Parameter`1.GetType
+  name: GetType()
+  href: api/CMD_Parser.Parameter-1.html#CMD_Parser_Parameter_1_GetType
+  commentId: M:CMD_Parser.Parameter`1.GetType
+  fullName: CMD_Parser.Parameter<T>.GetType()
+  fullName.vb: CMD_Parser.Parameter(Of T).GetType()
+  nameWithType: Parameter<T>.GetType()
+  nameWithType.vb: Parameter(Of T).GetType()
+- uid: CMD_Parser.Parameter`1.GetType*
+  name: GetType
+  href: api/CMD_Parser.Parameter-1.html#CMD_Parser_Parameter_1_GetType_
+  commentId: Overload:CMD_Parser.Parameter`1.GetType
+  isSpec: "True"
+  fullName: CMD_Parser.Parameter<T>.GetType
+  fullName.vb: CMD_Parser.Parameter(Of T).GetType
+  nameWithType: Parameter<T>.GetType
+  nameWithType.vb: Parameter(Of T).GetType
+- uid: CMD_Parser.Parameter`1.GetValue
+  name: GetValue()
+  href: api/CMD_Parser.Parameter-1.html#CMD_Parser_Parameter_1_GetValue
+  commentId: M:CMD_Parser.Parameter`1.GetValue
+  fullName: CMD_Parser.Parameter<T>.GetValue()
+  fullName.vb: CMD_Parser.Parameter(Of T).GetValue()
+  nameWithType: Parameter<T>.GetValue()
+  nameWithType.vb: Parameter(Of T).GetValue()
+- uid: CMD_Parser.Parameter`1.GetValue*
+  name: GetValue
+  href: api/CMD_Parser.Parameter-1.html#CMD_Parser_Parameter_1_GetValue_
+  commentId: Overload:CMD_Parser.Parameter`1.GetValue
+  isSpec: "True"
+  fullName: CMD_Parser.Parameter<T>.GetValue
+  fullName.vb: CMD_Parser.Parameter(Of T).GetValue
+  nameWithType: Parameter<T>.GetValue
+  nameWithType.vb: Parameter(Of T).GetValue
 - uid: CMD_Parser.Parameter`1.Value
   name: Value()
   href: api/CMD_Parser.Parameter-1.html#CMD_Parser_Parameter_1_Value
@@ -372,15 +584,6 @@ references:
   commentId: M:CMD_Parser.ParserControl.GetHelp
   fullName: CMD_Parser.ParserControl.GetHelp()
   nameWithType: ParserControl.GetHelp()
-- uid: CMD_Parser.ParserControl.GetHelp(System.String)
-  name: GetHelp(string)
-  href: api/CMD_Parser.ParserControl.html#CMD_Parser_ParserControl_GetHelp_System_String_
-  commentId: M:CMD_Parser.ParserControl.GetHelp(System.String)
-  name.vb: GetHelp(String)
-  fullName: CMD_Parser.ParserControl.GetHelp(string)
-  fullName.vb: CMD_Parser.ParserControl.GetHelp(String)
-  nameWithType: ParserControl.GetHelp(string)
-  nameWithType.vb: ParserControl.GetHelp(String)
 - uid: CMD_Parser.ParserControl.GetHelp*
   name: GetHelp
   href: api/CMD_Parser.ParserControl.html#CMD_Parser_ParserControl_GetHelp_
@@ -401,22 +604,6 @@ references:
   isSpec: "True"
   fullName: CMD_Parser.ParserControl.GetOptionNames
   nameWithType: ParserControl.GetOptionNames
-- uid: CMD_Parser.ParserControl.GetOptionParameterHelp(System.String)
-  name: GetOptionParameterHelp(string)
-  href: api/CMD_Parser.ParserControl.html#CMD_Parser_ParserControl_GetOptionParameterHelp_System_String_
-  commentId: M:CMD_Parser.ParserControl.GetOptionParameterHelp(System.String)
-  name.vb: GetOptionParameterHelp(String)
-  fullName: CMD_Parser.ParserControl.GetOptionParameterHelp(string)
-  fullName.vb: CMD_Parser.ParserControl.GetOptionParameterHelp(String)
-  nameWithType: ParserControl.GetOptionParameterHelp(string)
-  nameWithType.vb: ParserControl.GetOptionParameterHelp(String)
-- uid: CMD_Parser.ParserControl.GetOptionParameterHelp*
-  name: GetOptionParameterHelp
-  href: api/CMD_Parser.ParserControl.html#CMD_Parser_ParserControl_GetOptionParameterHelp_
-  commentId: Overload:CMD_Parser.ParserControl.GetOptionParameterHelp
-  isSpec: "True"
-  fullName: CMD_Parser.ParserControl.GetOptionParameterHelp
-  nameWithType: ParserControl.GetOptionParameterHelp
 - uid: CMD_Parser.ParserControl.GetUncaught
   name: GetUncaught()
   href: api/CMD_Parser.ParserControl.html#CMD_Parser_ParserControl_GetUncaught
@@ -478,3 +665,87 @@ references:
   isSpec: "True"
   fullName: CMD_Parser.ParserControl.ParseArgs
   nameWithType: ParserControl.ParseArgs
+- uid: CMD_Parser.ParsingException
+  name: ParsingException
+  href: api/CMD_Parser.ParsingException.html
+  commentId: T:CMD_Parser.ParsingException
+  fullName: CMD_Parser.ParsingException
+  nameWithType: ParsingException
+- uid: CMD_Parser.ParsingException.#ctor(System.String)
+  name: ParsingException(string?)
+  href: api/CMD_Parser.ParsingException.html#CMD_Parser_ParsingException__ctor_System_String_
+  commentId: M:CMD_Parser.ParsingException.#ctor(System.String)
+  name.vb: New(String)
+  fullName: CMD_Parser.ParsingException.ParsingException(string?)
+  fullName.vb: CMD_Parser.ParsingException.New(String)
+  nameWithType: ParsingException.ParsingException(string?)
+  nameWithType.vb: ParsingException.New(String)
+- uid: CMD_Parser.ParsingException.#ctor(System.String,System.Exception)
+  name: ParsingException(string, Exception)
+  href: api/CMD_Parser.ParsingException.html#CMD_Parser_ParsingException__ctor_System_String_System_Exception_
+  commentId: M:CMD_Parser.ParsingException.#ctor(System.String,System.Exception)
+  name.vb: New(String, Exception)
+  fullName: CMD_Parser.ParsingException.ParsingException(string, System.Exception)
+  fullName.vb: CMD_Parser.ParsingException.New(String, System.Exception)
+  nameWithType: ParsingException.ParsingException(string, Exception)
+  nameWithType.vb: ParsingException.New(String, Exception)
+- uid: CMD_Parser.ParsingException.#ctor*
+  name: ParsingException
+  href: api/CMD_Parser.ParsingException.html#CMD_Parser_ParsingException__ctor_
+  commentId: Overload:CMD_Parser.ParsingException.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: CMD_Parser.ParsingException.ParsingException
+  fullName.vb: CMD_Parser.ParsingException.New
+  nameWithType: ParsingException.ParsingException
+  nameWithType.vb: ParsingException.New
+- uid: CMD_Parser.UnsetOptionException
+  name: UnsetOptionException
+  href: api/CMD_Parser.UnsetOptionException.html
+  commentId: T:CMD_Parser.UnsetOptionException
+  fullName: CMD_Parser.UnsetOptionException
+  nameWithType: UnsetOptionException
+- uid: CMD_Parser.UnsetOptionException.#ctor(System.String)
+  name: UnsetOptionException(string?)
+  href: api/CMD_Parser.UnsetOptionException.html#CMD_Parser_UnsetOptionException__ctor_System_String_
+  commentId: M:CMD_Parser.UnsetOptionException.#ctor(System.String)
+  name.vb: New(String)
+  fullName: CMD_Parser.UnsetOptionException.UnsetOptionException(string?)
+  fullName.vb: CMD_Parser.UnsetOptionException.New(String)
+  nameWithType: UnsetOptionException.UnsetOptionException(string?)
+  nameWithType.vb: UnsetOptionException.New(String)
+- uid: CMD_Parser.UnsetOptionException.#ctor*
+  name: UnsetOptionException
+  href: api/CMD_Parser.UnsetOptionException.html#CMD_Parser_UnsetOptionException__ctor_
+  commentId: Overload:CMD_Parser.UnsetOptionException.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: CMD_Parser.UnsetOptionException.UnsetOptionException
+  fullName.vb: CMD_Parser.UnsetOptionException.New
+  nameWithType: UnsetOptionException.UnsetOptionException
+  nameWithType.vb: UnsetOptionException.New
+- uid: CMD_Parser.UnsetParameterException
+  name: UnsetParameterException
+  href: api/CMD_Parser.UnsetParameterException.html
+  commentId: T:CMD_Parser.UnsetParameterException
+  fullName: CMD_Parser.UnsetParameterException
+  nameWithType: UnsetParameterException
+- uid: CMD_Parser.UnsetParameterException.#ctor(System.String)
+  name: UnsetParameterException(string?)
+  href: api/CMD_Parser.UnsetParameterException.html#CMD_Parser_UnsetParameterException__ctor_System_String_
+  commentId: M:CMD_Parser.UnsetParameterException.#ctor(System.String)
+  name.vb: New(String)
+  fullName: CMD_Parser.UnsetParameterException.UnsetParameterException(string?)
+  fullName.vb: CMD_Parser.UnsetParameterException.New(String)
+  nameWithType: UnsetParameterException.UnsetParameterException(string?)
+  nameWithType.vb: UnsetParameterException.New(String)
+- uid: CMD_Parser.UnsetParameterException.#ctor*
+  name: UnsetParameterException
+  href: api/CMD_Parser.UnsetParameterException.html#CMD_Parser_UnsetParameterException__ctor_
+  commentId: Overload:CMD_Parser.UnsetParameterException.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: CMD_Parser.UnsetParameterException.UnsetParameterException
+  fullName.vb: CMD_Parser.UnsetParameterException.New
+  nameWithType: UnsetParameterException.UnsetParameterException
+  nameWithType.vb: UnsetParameterException.New

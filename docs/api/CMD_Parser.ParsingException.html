@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class Parameter&lt;T&gt; | Command Line Parser </title>
+      <title>Class ParsingException | Command Line Parser </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class Parameter&lt;T&gt; | Command Line Parser ">
+      <meta name="title" content="Class ParsingException | Command Line Parser ">
       
-      <meta name="description" content="Generic parameter class which holds the parameter data.">
+      <meta name="description" content="Represents errors that occur during parsing of the command line input.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -84,12 +84,12 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="CMD_Parser.Parameter`1">
+        <article data-uid="CMD_Parser.ParsingException">
 
 
 
-  <h1 id="CMD_Parser_Parameter_1" data-uid="CMD_Parser.Parameter`1" class="text-break">
-Class Parameter&lt;T&gt;  
+  <h1 id="CMD_Parser_ParsingException" data-uid="CMD_Parser.ParsingException" class="text-break">
+Class ParsingException  
   </h1>
 
   <div class="facts text-secondary">
@@ -97,47 +97,81 @@ Class Parameter&lt;T&gt;
   <dl><dt>Assembly</dt><dd>CMD_Parser.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>Generic parameter class which holds the parameter data.</p>
+  <div class="markdown summary"><p>Represents errors that occur during parsing of the command line input.</p>
 </div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class Parameter&lt;T&gt; : ParameterWrapper</code></pre>
+    <pre><code class="lang-csharp hljs">public class ParsingException : CmdParserException, ISerializable</code></pre>
   </div>
 
 
 
-  <h4 class="section">Type Parameters</h4>
-  <dl class="parameters">
-    <dt><code>T</code></dt>
-    <dd></dd>
-  </dl>
 
   <dl class="typelist inheritance">
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><a class="xref" href="CMD_Parser.ParameterWrapper.html">ParameterWrapper</a></div>
-      <div><span class="xref">Parameter&lt;T&gt;</span></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">Exception</a></div>
+      <div><a class="xref" href="CMD_Parser.CmdParserException.html">CmdParserException</a></div>
+      <div><span class="xref">ParsingException</span></div>
     </dd>
   </dl>
 
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.runtime.serialization.iserializable">ISerializable</a></div>
+    </dd>
+  </dl>
 
+  <dl class="typelist derived">
+    <dt>Derived</dt>
+    <dd>
+      <div><a class="xref" href="CMD_Parser.ForbiddenCombinationException.html">ForbiddenCombinationException</a></div>
+      <div><a class="xref" href="CMD_Parser.UnsetOptionException.html">UnsetOptionException</a></div>
+      <div><a class="xref" href="CMD_Parser.UnsetParameterException.html">UnsetParameterException</a></div>
+    </dd>
+  </dl>
 
   <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
     <div>
-      <a class="xref" href="CMD_Parser.ParameterWrapper.html#CMD_Parser_ParameterWrapper_Name">ParameterWrapper.Name</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception.getbaseexception">Exception.GetBaseException()</a>
     </div>
     <div>
-      <a class="xref" href="CMD_Parser.ParameterWrapper.html#CMD_Parser_ParameterWrapper_IsRequired">ParameterWrapper.IsRequired</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception.gettype">Exception.GetType()</a>
     </div>
     <div>
-      <a class="xref" href="CMD_Parser.ParameterWrapper.html#CMD_Parser_ParameterWrapper_HasDefault">ParameterWrapper.HasDefault</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception.tostring">Exception.ToString()</a>
     </div>
     <div>
-      <a class="xref" href="CMD_Parser.ParameterWrapper.html#CMD_Parser_ParameterWrapper_Help">ParameterWrapper.Help</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception.data">Exception.Data</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception.helplink">Exception.HelpLink</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception.hresult">Exception.HResult</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception.innerexception">Exception.InnerException</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception.message">Exception.Message</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception.source">Exception.Source</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception.stacktrace">Exception.StackTrace</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception.targetsite">Exception.TargetSite</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception.serializeobjectstate">Exception.SerializeObjectState</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
@@ -154,9 +188,6 @@ Class Parameter&lt;T&gt;
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
     </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
-    </div>
   </dd></dl>
 
 
@@ -164,14 +195,14 @@ Class Parameter&lt;T&gt;
 
 
 
-  <h2 class="section" id="methods">Methods
+  <h2 class="section" id="constructors">Constructors
 </h2>
 
 
-  <a id="CMD_Parser_Parameter_1_GetType_" data-uid="CMD_Parser.Parameter`1.GetType*"></a>
+  <a id="CMD_Parser_ParsingException__ctor_" data-uid="CMD_Parser.ParsingException.#ctor*"></a>
 
-  <h3 id="CMD_Parser_Parameter_1_GetType" data-uid="CMD_Parser.Parameter`1.GetType">
-  GetType()
+  <h3 id="CMD_Parser_ParsingException__ctor_System_String_" data-uid="CMD_Parser.ParsingException.#ctor(System.String)">
+  ParsingException(string?)
   
   </h3>
 
@@ -179,13 +210,12 @@ Class Parameter&lt;T&gt;
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override dynamic GetType()</code></pre>
+    <pre><code class="lang-csharp hljs">public ParsingException(string? message = null)</code></pre>
   </div>
 
-
-  <h4 class="section">Returns</h4>
+  <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><span class="xref">dynamic</span></dt>
+    <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
     <dd></dd>
   </dl>
 
@@ -199,10 +229,11 @@ Class Parameter&lt;T&gt;
 
 
 
-  <a id="CMD_Parser_Parameter_1_GetValue_" data-uid="CMD_Parser.Parameter`1.GetValue*"></a>
 
-  <h3 id="CMD_Parser_Parameter_1_GetValue" data-uid="CMD_Parser.Parameter`1.GetValue">
-  GetValue()
+  <a id="CMD_Parser_ParsingException__ctor_" data-uid="CMD_Parser.ParsingException.#ctor*"></a>
+
+  <h3 id="CMD_Parser_ParsingException__ctor_System_String_System_Exception_" data-uid="CMD_Parser.ParsingException.#ctor(System.String,System.Exception)">
+  ParsingException(string, Exception)
   
   </h3>
 
@@ -210,46 +241,17 @@ Class Parameter&lt;T&gt;
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override dynamic GetValue()</code></pre>
+    <pre><code class="lang-csharp hljs">public ParsingException(string message, Exception innerException)</code></pre>
   </div>
 
-
-  <h4 class="section">Returns</h4>
+  <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><span class="xref">dynamic</span></dt>
+    <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>innerException</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">Exception</a></dt>
     <dd></dd>
   </dl>
 
-
-
-
-
-
-
-
-
-
-
-  <a id="CMD_Parser_Parameter_1_Value_" data-uid="CMD_Parser.Parameter`1.Value*"></a>
-
-  <h3 id="CMD_Parser_Parameter_1_Value" data-uid="CMD_Parser.Parameter`1.Value">
-  Value()
-  
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public T Value()</code></pre>
-  </div>
-
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><span class="xref">T</span></dt>
-    <dd></dd>
-  </dl>
 
 
 

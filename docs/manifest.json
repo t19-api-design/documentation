@@ -1,5 +1,5 @@
 {
-  "source_base_path": "C:/Users/natal/OneDrive/Počítač/git_repos/t19-api-design/API/src/docs",
+  "source_base_path": "C:/Users/natal/OneDrive/Počítač/git_repos/t19-api-design/parser/docs",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -9,6 +9,48 @@
           "relative_path": "index.json"
         }
       }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CMD_Parser.BuildingException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CMD_Parser.BuildingException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CMD_Parser.BuildingException",
+      "Summary": "<p sourcefile=\"api/CMD_Parser.BuildingException.yml\" sourcestartlinenumber=\"1\">Represents errors that occur during the building or configuration of the parser.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CMD_Parser.CmdParserException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CMD_Parser.CmdParserException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CMD_Parser.CmdParserException",
+      "Summary": "<p sourcefile=\"api/CMD_Parser.CmdParserException.yml\" sourcestartlinenumber=\"1\">The base exception type for all errors thrown by the CMD Parser library.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CMD_Parser.ForbiddenCombinationException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CMD_Parser.ForbiddenCombinationException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CMD_Parser.ForbiddenCombinationException",
+      "Summary": "<p sourcefile=\"api/CMD_Parser.ForbiddenCombinationException.yml\" sourcestartlinenumber=\"1\">Thrown when a combination of options on the command line does not belong to the same group.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -68,6 +110,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CMD_Parser.ParameterWrapper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CMD_Parser.ParameterWrapper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CMD_Parser.ParameterWrapper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CMD_Parser.ParserControl.yml",
       "output": {
         ".html": {
@@ -78,7 +134,49 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "CMD_Parser.ParserControl",
-      "Summary": "<p sourcefile=\"api/CMD_Parser.ParserControl.yml\" sourcestartlinenumber=\"1\">The loadbearing class, with which the user is able to communicate when defining options and their\nparameters, as well as when parsing the values obtained from these options during runtime.</p>\n"
+      "Summary": "<p sourcefile=\"api/CMD_Parser.ParserControl.yml\" sourcestartlinenumber=\"1\">The load bearing class, with which the user is able to communicate when defining options and their\nparameters, as well as when parsing the values obtained from these options during runtime.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CMD_Parser.ParsingException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CMD_Parser.ParsingException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CMD_Parser.ParsingException",
+      "Summary": "<p sourcefile=\"api/CMD_Parser.ParsingException.yml\" sourcestartlinenumber=\"1\">Represents errors that occur during parsing of the command line input.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CMD_Parser.UnsetOptionException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CMD_Parser.UnsetOptionException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CMD_Parser.UnsetOptionException",
+      "Summary": "<p sourcefile=\"api/CMD_Parser.UnsetOptionException.yml\" sourcestartlinenumber=\"1\">Thrown when a required options is not set on the command line.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CMD_Parser.UnsetParameterException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CMD_Parser.UnsetParameterException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CMD_Parser.UnsetParameterException",
+      "Summary": "<p sourcefile=\"api/CMD_Parser.UnsetParameterException.yml\" sourcestartlinenumber=\"1\">Thrown when a parameter for non-flag option is not set on the command line.</p>\n"
     },
     {
       "type": "ManagedReference",

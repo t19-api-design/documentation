@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class Parameter&lt;T&gt; | Command Line Parser </title>
+      <title>Class ParameterWrapper | Command Line Parser </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class Parameter&lt;T&gt; | Command Line Parser ">
+      <meta name="title" content="Class ParameterWrapper | Command Line Parser ">
       
-      <meta name="description" content="Generic parameter class which holds the parameter data.">
+      
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -84,12 +84,12 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="CMD_Parser.Parameter`1">
+        <article data-uid="CMD_Parser.ParameterWrapper">
 
 
 
-  <h1 id="CMD_Parser_Parameter_1" data-uid="CMD_Parser.Parameter`1" class="text-break">
-Class Parameter&lt;T&gt;  
+  <h1 id="CMD_Parser_ParameterWrapper" data-uid="CMD_Parser.ParameterWrapper" class="text-break">
+Class ParameterWrapper  
   </h1>
 
   <div class="facts text-secondary">
@@ -97,48 +97,35 @@ Class Parameter&lt;T&gt;
   <dl><dt>Assembly</dt><dd>CMD_Parser.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>Generic parameter class which holds the parameter data.</p>
-</div>
+  <div class="markdown summary"></div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class Parameter&lt;T&gt; : ParameterWrapper</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract class ParameterWrapper</code></pre>
   </div>
 
 
 
-  <h4 class="section">Type Parameters</h4>
-  <dl class="parameters">
-    <dt><code>T</code></dt>
-    <dd></dd>
-  </dl>
 
   <dl class="typelist inheritance">
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><a class="xref" href="CMD_Parser.ParameterWrapper.html">ParameterWrapper</a></div>
-      <div><span class="xref">Parameter&lt;T&gt;</span></div>
+      <div><span class="xref">ParameterWrapper</span></div>
     </dd>
   </dl>
 
 
+  <dl class="typelist derived">
+    <dt>Derived</dt>
+    <dd>
+      <div><a class="xref" href="CMD_Parser.Parameter-1.html">Parameter&lt;T&gt;</a></div>
+    </dd>
+  </dl>
 
   <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
-    <div>
-      <a class="xref" href="CMD_Parser.ParameterWrapper.html#CMD_Parser_ParameterWrapper_Name">ParameterWrapper.Name</a>
-    </div>
-    <div>
-      <a class="xref" href="CMD_Parser.ParameterWrapper.html#CMD_Parser_ParameterWrapper_IsRequired">ParameterWrapper.IsRequired</a>
-    </div>
-    <div>
-      <a class="xref" href="CMD_Parser.ParameterWrapper.html#CMD_Parser_ParameterWrapper_HasDefault">ParameterWrapper.HasDefault</a>
-    </div>
-    <div>
-      <a class="xref" href="CMD_Parser.ParameterWrapper.html#CMD_Parser_ParameterWrapper_Help">ParameterWrapper.Help</a>
-    </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
     </div>
@@ -164,13 +151,141 @@ Class Parameter&lt;T&gt;
 
 
 
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="CMD_Parser_ParameterWrapper_HasDefault_" data-uid="CMD_Parser.ParameterWrapper.HasDefault*"></a>
+
+  <h3 id="CMD_Parser_ParameterWrapper_HasDefault" data-uid="CMD_Parser.ParameterWrapper.HasDefault">
+  HasDefault
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasDefault { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CMD_Parser_ParameterWrapper_Help_" data-uid="CMD_Parser.ParameterWrapper.Help*"></a>
+
+  <h3 id="CMD_Parser_ParameterWrapper_Help" data-uid="CMD_Parser.ParameterWrapper.Help">
+  Help
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Help { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CMD_Parser_ParameterWrapper_IsRequired_" data-uid="CMD_Parser.ParameterWrapper.IsRequired*"></a>
+
+  <h3 id="CMD_Parser_ParameterWrapper_IsRequired" data-uid="CMD_Parser.ParameterWrapper.IsRequired">
+  IsRequired
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsRequired { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CMD_Parser_ParameterWrapper_Name_" data-uid="CMD_Parser.ParameterWrapper.Name*"></a>
+
+  <h3 id="CMD_Parser_ParameterWrapper_Name" data-uid="CMD_Parser.ParameterWrapper.Name">
+  Name
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Name { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <h2 class="section" id="methods">Methods
 </h2>
 
 
-  <a id="CMD_Parser_Parameter_1_GetType_" data-uid="CMD_Parser.Parameter`1.GetType*"></a>
+  <a id="CMD_Parser_ParameterWrapper_GetType_" data-uid="CMD_Parser.ParameterWrapper.GetType*"></a>
 
-  <h3 id="CMD_Parser_Parameter_1_GetType" data-uid="CMD_Parser.Parameter`1.GetType">
+  <h3 id="CMD_Parser_ParameterWrapper_GetType" data-uid="CMD_Parser.ParameterWrapper.GetType">
   GetType()
   
   </h3>
@@ -179,7 +294,7 @@ Class Parameter&lt;T&gt;
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override dynamic GetType()</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract dynamic GetType()</code></pre>
   </div>
 
 
@@ -199,9 +314,9 @@ Class Parameter&lt;T&gt;
 
 
 
-  <a id="CMD_Parser_Parameter_1_GetValue_" data-uid="CMD_Parser.Parameter`1.GetValue*"></a>
+  <a id="CMD_Parser_ParameterWrapper_GetValue_" data-uid="CMD_Parser.ParameterWrapper.GetValue*"></a>
 
-  <h3 id="CMD_Parser_Parameter_1_GetValue" data-uid="CMD_Parser.Parameter`1.GetValue">
+  <h3 id="CMD_Parser_ParameterWrapper_GetValue" data-uid="CMD_Parser.ParameterWrapper.GetValue">
   GetValue()
   
   </h3>
@@ -210,44 +325,13 @@ Class Parameter&lt;T&gt;
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override dynamic GetValue()</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract dynamic GetValue()</code></pre>
   </div>
 
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><span class="xref">dynamic</span></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-  <a id="CMD_Parser_Parameter_1_Value_" data-uid="CMD_Parser.Parameter`1.Value*"></a>
-
-  <h3 id="CMD_Parser_Parameter_1_Value" data-uid="CMD_Parser.Parameter`1.Value">
-  Value()
-  
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public T Value()</code></pre>
-  </div>
-
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><span class="xref">T</span></dt>
     <dd></dd>
   </dl>
 

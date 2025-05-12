@@ -95,8 +95,18 @@
 Classes
 </h3>
     <dl class="jumplist">
-      <dt><a class="xref" href="CMD_Parser.Option.html">Option</a></dt>
-      <dd><p>Houses the Option definitions.</p>
+      <dt><a class="xref" href="CMD_Parser.BuildingException.html">BuildingException</a></dt>
+      <dd><p>Represents errors that occur during the building or configuration of the parser.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="CMD_Parser.CmdParserException.html">CmdParserException</a></dt>
+      <dd><p>The base exception type for all errors thrown by the CMD Parser library.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="CMD_Parser.ForbiddenCombinationException.html">ForbiddenCombinationException</a></dt>
+      <dd><p>Thrown when a combination of options on the command line does not belong to the same group.</p>
 </dd>
     </dl>
     <dl class="jumplist">
@@ -112,14 +122,33 @@ while not exposing them to the Parameter objects.</p>
 </dd>
     </dl>
     <dl class="jumplist">
+      <dt><a class="xref" href="CMD_Parser.ParameterWrapper.html">ParameterWrapper</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
       <dt><a class="xref" href="CMD_Parser.Parameter-1.html">Parameter&lt;T&gt;</a></dt>
       <dd><p>Generic parameter class which holds the parameter data.</p>
 </dd>
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="CMD_Parser.ParserControl.html">ParserControl</a></dt>
-      <dd><p>The loadbearing class, with which the user is able to communicate when defining options and their
+      <dd><p>The load bearing class, with which the user is able to communicate when defining options and their
 parameters, as well as when parsing the values obtained from these options during runtime.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="CMD_Parser.ParsingException.html">ParsingException</a></dt>
+      <dd><p>Represents errors that occur during parsing of the command line input.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="CMD_Parser.UnsetOptionException.html">UnsetOptionException</a></dt>
+      <dd><p>Thrown when a required options is not set on the command line.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="CMD_Parser.UnsetParameterException.html">UnsetParameterException</a></dt>
+      <dd><p>Thrown when a parameter for non-flag option is not set on the command line.</p>
 </dd>
     </dl>
 
