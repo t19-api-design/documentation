@@ -97,6 +97,33 @@ are supported as well.</li>
 <li><strong>Plain</strong> (plain option, positional parameter) can be defined before or after delimiter.
 Plain defined before delimiter can not contain option prefix.</li>
 </ul>
+<h2 id="usage-example">Usage Example</h2>
+<pre><code class="lang-csharp">ParserControl control = new ParserControl();
+
+//defining option parameter
+Parameter&lt;string&gt; stringParam = new ParameterBuilder&lt;string&gt;(&quot;p1&quot;)
+                                  .AsRequired()
+                                  .GetParameter(); //&lt;- must be always called!
+
+//defining new option
+control.AddOption(&quot;format&quot;)
+       .WithParameter(stringParam)
+       .WithHelp(&quot;Specify output format, possibly overriding the format specified in the environment variable TIME.&quot;)
+       .WithPair(&quot;f&quot;)
+       .SetOption(); //&lt;- must be always called! 
+
+//defining new (plain) parameter
+control.AddParameter&lt;int&gt;(&quot;numberParameter&quot;)
+       .WithLambdaValidation(i =&gt; i&lt;10)
+       .SetParameter(); //&lt;- must be always called! 
+
+//parsing command line arguments args
+control.ParseArgs(args);
+
+//access the value of option or parameter after parsing
+var formatVal = control.GetValue(&quot;format&quot;); 
+
+</code></pre>
 
 </article>
 
